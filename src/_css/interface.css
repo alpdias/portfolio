@@ -1,1 +1,11 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap');
+
+body {
+    display: flex;
+    margin: 0px;
+    background-color: #171A21;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,45 @@
+NAVBAR
+
+- SOON
+- ABOUT
+- PORTFOLIO
+- CONTACT
+
+PRESENTATION
+
+Hi! &#128513; [EMOJI]
+I'm Paulo
+Developer, learning technologies with
+PORTFOLIO [BUTTON]
+
+ABOUT ME
+If you wanna know who I am...
+
+I'm Paulo, 23 years old and I'm learning to program and getting to know new technologies.
+I am learning to program to become a developer, so far all I have learned has been self-taught, watching courses online, video lessons and
+reading the language documentation. And as we know that the best way to learn is by practicing I created this portfolio to practice my 
+knowledge, initially in HTML, CSS and JavaScript, and of course all the other technologies I am learning that I can add and show here. Soon more 
+I will add the projects I'm working on here.
+
+My current knowledge in languages / technologies is:
+PYTHON - SQL - HTML5 - CSS3 - JAVASCRIPT - GITHUB - NODEJS
+GITHUB [BUTTON]
+
+
+PORTFOLIO
+
+ICON [<i class="fab fa-whmcs"></i>]
+keep calm
+learning to work it
+
+CONTACT ME
+if you want to talk to me, or need to find me
+
+email@email.com
+
+ICONS SOCIAL MEDIA
+https://www.instagram.com/alpdias [<i class="fab fa-instagram"></i>]
+https://www.facebook.com/paulo.d.alcantara [<i class="fab fa-facebook"></i>]
+https://twitter.com/_alpdias [<i class="fab fa-twitter"></i>]
+https://github.com/alpdias [<i class="fab fa-github"></i>]
+  
