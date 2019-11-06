@@ -11,22 +11,30 @@
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
-    padding: 40px;
+    padding: 0px;
     margin: 0px;
 }
-#presentation h3 {
-    display: flex;
-    font-size: 40pt;
-    margin-top: 250px;
-    margin-bottom: 0px;
+#presentation hgroup {
+    display: block;
+    width: 100%;
+    margin-top: auto;
+    margin-right: 40px;
+    margin-bottom: auto;
+    margin-left: 40px;
+    text-align: left;
 }
 #presentation h1 {
-    display: flex;
     font-size: 40pt;
-    margin-top: 0px;
+    font-weight: bolder;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 #presentation h2 {
-    display: flex;
+    font-weight: bolder;
     margin-top: 10px;
+}
+#presentation h3 {
+    font-size: 40pt;
+    font-weight: bolder;
+    margin-bottom: 0px;
 }
