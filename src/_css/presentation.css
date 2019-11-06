@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap');
+
+#presentation {
+    background-color: #171A21;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+}
+#presentation h3 {
+    display: flex;
+    font-size: 40pt;
+    margin-top: 250px;
+    margin-bottom: 0px;
+}
+#presentation h1 {
+    display: flex;
+    font-size: 40pt;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#presentation h2 {
+    display: flex;
+    margin-top: 10px;
+}

@@ -7,9 +7,9 @@ NAVBAR
 
 PRESENTATION
 
-Hi! &#128513; [EMOJI]
+Hi! &#128513;
 I'm Paulo
-Developer, learning technologies with
+Developer, learning technologies with [ROTATE]
 PORTFOLIO [BUTTON]
 
 ABOUT ME
@@ -28,7 +28,7 @@ GITHUB [BUTTON]
 
 PORTFOLIO
 
-ICON [<i class="fab fa-whmcs"></i>]
+<i class="fab fa-whmcs"></i>
 keep calm
 learning to work it
 
@@ -38,8 +38,8 @@ if you want to talk to me, or need to find me
 email@email.com
 
 ICONS SOCIAL MEDIA
-https://www.instagram.com/alpdias [<i class="fab fa-instagram"></i>]
-https://www.facebook.com/paulo.d.alcantara [<i class="fab fa-facebook"></i>]
-https://twitter.com/_alpdias [<i class="fab fa-twitter"></i>]
-https://github.com/alpdias [<i class="fab fa-github"></i>]
+https://www.instagram.com/alpdias <i class="fab fa-instagram"></i>
+https://www.facebook.com/paulo.d.alcantara <i class="fab fa-facebook"></i>
+https://twitter.com/_alpdias <i class="fab fa-twitter"></i>
+https://github.com/alpdias <i class="fab fa-github"></i>
   
