@@ -12,6 +12,7 @@
     width: 100%;
     box-sizing: border-box;
     padding: 40px;
+    margin: 0px;
 }
 #presentation h3 {
     display: flex;
