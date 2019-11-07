@@ -13,12 +13,10 @@
     margin: 0px;
     width: 100%;
     position: fixed;
-    padding-left: 90px;
-    padding-right: 90px;
 }
 #topMenu li {
     list-style: none;
-    display: flex;
+    display: block;
     padding: 25px 15px 25px 15px;
 }
 #topMenu li:first-child {
