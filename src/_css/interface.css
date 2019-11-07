@@ -2,9 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap');
 
-body {
+html, body {
     background-color: red;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }

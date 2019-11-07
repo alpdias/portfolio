@@ -2,44 +2,42 @@
 @import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap');
 
-#presentation {
+#about {
     background-color: #171A21;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
+    text-align: center;
     display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
-    padding: 0px;
+    padding: 50px 90px 50px 90px;
     margin: 0px;
 }
-#presentation hgroup {
-    display: flex;
-    width: 100%;
-    margin-top: auto;
-    margin-right: 90px;
-    margin-bottom: auto;
-    margin-left: 90px;
-    text-align: left;
-    flex-direction: column;
+#about p {
+    text-align: center;
 }
-#presentation h1 {
-    font-size: 40pt;
+#about h1 {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20pt;
     font-weight: bolder;
-    margin-bottom: 0px;
-    margin-top: 0px;
 }
-#presentation h2 {
-    font-weight: bolder;
-    margin-top: 10px;
-}
-#presentation h3 {
+#about h2 {
+    font-family: 'Staatliches', sans-serif;
+    color: #26408B;
     font-size: 40pt;
     font-weight: bolder;
     margin-bottom: 0px;
 }
-#presentation button {
+#about h3 {
+  
+}
+#about h4 {
+    
+}
+#about button {
     background-color: #26408B;
     color: #ffffff;
     font-family: 'Staatliches', sans-serif;
@@ -50,4 +48,5 @@
     box-sizing: border-box;
     padding: 20px;
     border-radius: 50px;
+    margin: auto;
 }

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap');
 
-#topmenu {
+#topMenu {
     background-color: rgba(23, 26, 33, 0.89);
     color: #ffffff;
     font-family: 'Staatliches', sans-serif;
@@ -13,12 +13,17 @@
     margin: 0;
     width: 100%;
     position: fixed;
+    padding-left: 90px;
+    padding-right: 90px;
 }
-#topmenu li {
+#topMenu li {
     list-style: none;
     display: flex;
     padding: 25px 15px 25px 15px;
 }
-#topmenu li:first-child {
+#topMenu li:first-child {
     margin-right: auto;
+}
+#topMenu img {
+    width: 10%;
 }
