@@ -20,10 +20,11 @@
     list-style: none;
     display: flex;
     padding: 25px 15px 25px 15px;
+    flex-wrap: wrap;
 }
 #topMenu li:first-child {
     margin-right: auto;
 }
 #topMenu img {
-    width: 10%;
+    width: 15vh;
 }

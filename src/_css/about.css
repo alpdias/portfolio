@@ -23,6 +23,7 @@
     font-family: 'Staatliches', sans-serif;
     font-size: 20pt;
     font-weight: bolder;
+    margin-top: 40px;
 }
 #about h2 {
     font-family: 'Staatliches', sans-serif;
@@ -30,11 +31,15 @@
     font-size: 40pt;
     font-weight: bolder;
     margin-bottom: 0px;
+    background: url("../_img/background.png") no-repeat center;
 }
 #about h3 {
-  
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 #about h4 {
+    margin-top: 50px;
+    margin-bottom: 0px;
     
 }
 #about button {
