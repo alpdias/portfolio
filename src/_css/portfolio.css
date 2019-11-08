@@ -15,11 +15,76 @@
     margin: auto;
     flex-direction: column;
 }
-#portfolio h1 {
+#firstProject table {
+    margin-top: 120px;
+}
+#firstProject h1 {
+    color: #26408B;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+#portfolio h2 {
     text-align: center;
     font-family: 'Staatliches', sans-serif;
     color: #26408B;
     font-size: 40pt;
     font-weight: bolder;
     background: url("../_img/background.png") no-repeat center;
+}
+#firstProject h3 {
+    color: #ffffff;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+#firstProject p {
+    text-align: justify;
+    font-size: 10pt;
+}
+
+#firstProject img {
+    display: flex;
+    width: 90%;
+    box-sizing: border-box;
+    border: 2px #ffffff solid;
+    border-radius: 5px;
+    box-shadow: 8px 8px 10px #000000;
+}
+#firstProject td.cr {
+    vertical-align: top;
+    margin: 0px;
+    padding: 0px;
+}
+#firstProjectButton {
+    background-color: #171A21;
+    color: #ffffff;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: row;
+}
+#firstProjectButton button {
+    background-color: #26408B;
+    color: #ffffff;
+    font-family: 'Staatliches', sans-serif;
+    font-weight: bolder;
+    border: none;
+    box-shadow: 1px 1px 2px #000000;
+    display: block;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 50px;
+}
+#firstProjectButton button:hover {
+    background-color: #ffffff;
+    color: #26408B;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#firstProject button.bl {
+    margin-right: 15px;
 }
