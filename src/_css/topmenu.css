@@ -17,7 +17,8 @@
 #topMenu li {
     list-style: none;
     display: block;
-    padding: 25px 15px 25px 15px;
+    align-content: center;
+    padding: 25px 15px 15px 15px;
 }
 #topMenu li:first-child {
     margin-right: auto;
