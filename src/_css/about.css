@@ -14,7 +14,7 @@
     width: 100%;
     box-sizing: border-box;
     padding: 3% 6% 3% 6%;
-    margin: 0px;
+    margin: auto;
 }
 #about p {
     text-align: center;
@@ -24,7 +24,8 @@
     font-family: 'Staatliches', sans-serif;
     font-size: 20pt;
     font-weight: bolder;
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-bottom: 35px;
 }
 #about h2 {
     font-family: 'Staatliches', sans-serif;
@@ -34,36 +35,41 @@
     margin-bottom: 0px;
     background: url("../_img/background.png") no-repeat center;
 }
-#about h3 {
+#about h5{
     margin-top: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 40px;
+    font-size: 13pt;
 }
 #about h4 {
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 0px;
     
 }
-#about a {
+#aboutButton {
+    background-color: #171A21;
     color: #ffffff;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
 }
-#about a:hover {
-    color: #26408B;
-}
-#about button {
+#aboutButton button {
     background-color: #26408B;
     color: #ffffff;
     font-family: 'Staatliches', sans-serif;
     font-weight: bolder;
     border: none;
     box-shadow: 1px 1px 2px #000000;
-    display: flex;
+    display: block;
     box-sizing: border-box;
     padding: 20px;
     border-radius: 50px;
     margin: auto;
 }
-#about button:hover {
+#aboutButton button:hover {
     background-color: #ffffff;
     color: #26408B;
     transition: 0.3s;
+    cursor: pointer;
 }
