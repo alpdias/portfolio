@@ -12,4 +12,5 @@ html, body {
 }
 a {
     text-decoration: none;
+    text-decoration-style: none;
 }
