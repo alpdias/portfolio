@@ -28,3 +28,10 @@
 #topMenu img {
     width: 15vh;
 }
+#topMenu a {
+    color: #ffffff;
+}
+#topMenu a:hover {
+    color: #26408B;
+    transition: 0.3s;
+}
