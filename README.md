@@ -9,3 +9,4 @@ Códificação: -&lowast;- coding: utf-8 -&lowast;- </br>
 en-US
 
 --------------------------------------------------------------------------------------------------------------
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f958a9a1-4e02-4e59-84d7-4d53e68515dc/deploy-status)](https://app.netlify.com/sites/paulodev/deploys)
