@@ -1,12 +1,10 @@
-# Portfolio using HTML5 and CSS3
+# My portfolio in HTML5 and CSS3
 
-My first portfolio created with HTML5 and CSS3
+![portfolio](https://github.com/alpdias/portfolio-html-css/blob/master/src/_img/portfolio.png)
 
-My first portfolio using only HTML5 and CSS3, created with learning intuition only.
-
-Microsoft VSCode 1.38.1 </br>
-Códificação: -&lowast;- coding: utf-8 -&lowast;- </br>
-en-US
+This is my first portfolio created using only HTML5 and CSS3, it was created with the purpose of learning and showing the projects 
+I'm working on. I made the idea of being a static site, which was simple and practical, I just used HTML and CSS to learn basic web 
+development.
 
 --------------------------------------------------------------------------------------------------------------
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d2890bd6-916e-4df8-9393-ae8d8565d415/deploy-status)](https://app.netlify.com/sites/paulodeveloper/deploys)
