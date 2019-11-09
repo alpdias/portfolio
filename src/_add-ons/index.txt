@@ -28,9 +28,19 @@ GITHUB [BUTTON]
 
 PORTFOLIO
 
-<i class="fab fa-whmcs"></i>
+PAULO PORTFOLIO
+
+[IMG]
+
+This is my portfolio, I created this site to be something quick and simple, where I can show a portfolio with the projects I am developing in
+an easy and uncomplicated way. This is a static page, where I just created using only HTML and styling with CSS.
+
+SOURCE [BUTTON] VISIT [BUTTON]
+
+
 keep calm
 learning to work it
+<i class="fab fa-whmcs"></i>
 
 CONTACT ME
 if you want to talk to me, or need to find me
