@@ -15,16 +15,19 @@
     margin: auto;
 }
 #presentation h1 {
+    width: 100%;
     font-size: 40pt;
     font-weight: bolder;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 #presentation h2 {
+    width: 100%;
     font-weight: bolder;
     margin-top: 10px;
 }
 #presentation h3 {
+    width: 100%;
     font-size: 40pt;
     font-weight: bolder;
     margin-top: 220px;
