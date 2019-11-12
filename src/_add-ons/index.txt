@@ -38,18 +38,13 @@ an easy and uncomplicated way. This is a static page, where I just created using
 SOURCE [BUTTON] VISIT [BUTTON]
 
 
-keep calm
-learning to work it
-<i class="fab fa-whmcs"></i>
-
 CONTACT ME
 if you want to talk to me, or need to find me
 
-email@email.com
 
 ICONS SOCIAL MEDIA
-https://www.instagram.com/alpdias <i class="fab fa-instagram"></i>
-https://www.facebook.com/paulo.d.alcantara <i class="fab fa-facebook"></i>
-https://twitter.com/_alpdias <i class="fab fa-twitter"></i>
+
 https://github.com/alpdias <i class="fab fa-github"></i>
+
+Copyright 2019 | Paulo
   
