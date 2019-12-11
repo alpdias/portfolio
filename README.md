@@ -5,6 +5,7 @@ Este é o meu primeiro portfólio criado usando apenas HTML5 e CSS3, foi criado 
 ![portfolio](https://github.com/alpdias/portfolio-html-css/blob/master/src/_img/portfolio.png)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d2890bd6-916e-4df8-9393-ae8d8565d415/deploy-status)](https://app.netlify.com/sites/paulodeveloper/deploys)
+
 --------------------------------------------------------------------------------------------------------------
 
 # My portfolio in HTML5 and CSS3
