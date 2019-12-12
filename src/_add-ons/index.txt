@@ -9,7 +9,7 @@ PRESENTATION
 
 Hi! &#128513;
 I'm Paulo
-Developer, learning technologies with [ROTATE]
+Developer, learning technologies.
 PORTFOLIO [BUTTON]
 
 ABOUT ME
@@ -41,10 +41,7 @@ SOURCE [BUTTON] VISIT [BUTTON]
 CONTACT ME
 if you want to talk to me, or need to find me
 
-
-ICONS SOCIAL MEDIA
-
-https://github.com/alpdias <i class="fab fa-github"></i>
+<i class="fab fa-github"></i>
 
 Copyright 2019 | Paulo
   
