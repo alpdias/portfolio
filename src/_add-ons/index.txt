@@ -10,9 +10,11 @@ PRESENTATION
 Hi! &#128513;
 I'm Paulo
 Developer, learning technologies.
+
 PORTFOLIO [BUTTON]
 
 ABOUT ME
+
 If you wanna know who I am...
 
 I'm Paulo, 23 years old and I'm learning to program and getting to know new technologies.
@@ -22,7 +24,9 @@ knowledge, initially in HTML, CSS and JavaScript, and of course all the other te
 I will add the projects I'm working on here.
 
 My current knowledge in languages / technologies is:
+
 PYTHON - SQL - HTML5 - CSS3 - JAVASCRIPT - GITHUB - NODEJS
+
 GITHUB [BUTTON]
 
 
@@ -37,11 +41,14 @@ an easy and uncomplicated way. This is a static page, where I just created using
 
 SOURCE [BUTTON] VISIT [BUTTON]
 
+FOR MORE
+
+To see more of my projects, especially Python, visit my GitHub page
+
+[IMG]
 
 CONTACT ME
 if you want to talk to me, or need to find me
-
-<i class="fab fa-github"></i>
 
 Copyright 2019 | Paulo
   
