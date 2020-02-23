@@ -7,7 +7,7 @@ Microsoft VSCode 1.42.1 </br>
 Coding: -&lowast;- coding: utf-8 -&lowast;- </br>
 en-US </br>
 
-![portfolio](https://github.com/alpdias/portfolio-html-css/blob/master/src/_img/portfolio.png)
+![portfolio](https://github.com/alpdias/portfolio-html-css/blob/master/src/img/portfolio.png)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d2890bd6-916e-4df8-9393-ae8d8565d415/deploy-status)](https://app.netlify.com/sites/paulodeveloper/deploys)
 
@@ -22,7 +22,7 @@ Microsoft VSCode 1.42.1 </br>
 Codificação: -&lowast;- coding: utf-8 -&lowast;- </br>
 en-US </br>
 
-![portfolio](https://github.com/alpdias/portfolio-html-css/blob/master/src/_img/portfolio.png)
+![portfolio](https://github.com/alpdias/portfolio-html-css/blob/master/src/img/portfolio.png)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d2890bd6-916e-4df8-9393-ae8d8565d415/deploy-status)](https://app.netlify.com/sites/paulodeveloper/deploys)
 
