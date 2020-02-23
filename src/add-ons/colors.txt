@@ -1,3 +1,0 @@
-background = #171A21;
-color = #ffffff;
-add-color = #26408B;
