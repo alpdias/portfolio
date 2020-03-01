@@ -1,4 +1,4 @@
-Colors used
+Colors used -->
 
 Background: #171A21
 Main color: #ffffff
@@ -6,14 +6,13 @@ Additional color: #26408B
 
 ---------------------------------------------------------------------------------------------------
 
-Font used
+Font used -->
 
 charset "UTF-8"
 https://fonts.googleapis.com/css?family=Staatliches&display=swap
 https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap
 
 ---------------------------------------------------------------------------------------------------
-
 
 Main -->
 
@@ -29,7 +28,7 @@ PRESENTATION
 
 Hi! &#128513;
 I'm Paulo
-Developer, learning technologies.
+Developer. Learning technologies.
 
 PORTFOLIO [BUTTON]
 
@@ -37,17 +36,16 @@ ABOUT ME
 
 If you wanna know who I am...
 
-I'm Paulo, 23 years old and I'm learning to program and getting to know new technologies.
-I am learning to program to become a developer, so far all I have learned has been self-taught, watching courses online, video lessons and
-reading the language documentation. And as we know that the best way to learn is by practicing I created this portfolio to practice my 
-knowledge, initially in HTML, CSS and JavaScript, and of course all the other technologies I am learning that I can add and show here. Soon more 
-I will add the projects I'm working on here.
+??
 
 My current knowledge in languages / technologies is:
 
-PYTHON - SQL - HTML5 - CSS3 - JAVASCRIPT - GITHUB - NODEJS
+PYTHON - MYSQL - DATABASE - HTML - CSS - JAVASCRIPT - GITHUB - NODEJS
 
 GITHUB [BUTTON]
+
+
+
 
 PORTFOLIO
 
