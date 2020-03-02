@@ -45,7 +45,7 @@ a {
 }
 
 #topMenu img {
-    max-width: 10%;
+    width: 100px;
 }
 
 #topMenu a {
