@@ -44,17 +44,14 @@ PYTHON - MYSQL - DATABASE - HTML - CSS - JAVASCRIPT - GITHUB - NODEJS
 
 GITHUB [BUTTON]
 
-
-
-
 PORTFOLIO
 
 PAULO PORTFOLIO
 
 [IMG]
 
-This is my portfolio, I created this site to be something quick and simple, where I can show a portfolio with the projects I am developing in
-an easy and uncomplicated way. This is a static page, where I just created using only HTML and styling with CSS.
+This is my first portfolio, I did it with the purpose of learning and to show the projects I'm working on. 
+I created with the idea of ​​being a static, simple and practical website, just using HTML and CSS to learn web development.
 
 SOURCE [BUTTON] VISIT [BUTTON]
 

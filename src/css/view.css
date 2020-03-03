@@ -37,7 +37,7 @@ a {
     list-style: none;
     display: block;
     align-content: center;
-    padding: 2% 1.5% 1.5% 1.5%;
+    padding: 2% 16px 1.5% 16px;
 }
 
 #topMenu li:first-child {
@@ -95,7 +95,7 @@ a {
     font-family: 'Staatliches', sans-serif;
     font-weight: bolder;
     border: none;
-    box-shadow: 1px 1px 2px #000000;
+    box-shadow: 2px 2px 4px #000000;
     display: flex;
     box-sizing: border-box;
     padding: 5%;
@@ -127,10 +127,6 @@ table {
     box-sizing: border-box;
     padding: 5% 7% 5% 7%;
     margin: auto;
-}
-
-#about p {
-    text-align: center;
 }
 
 #about h1 {
@@ -168,7 +164,7 @@ table {
     font-family: 'Staatliches', sans-serif;
     font-weight: bolder;
     border: none;
-    box-shadow: 1px 1px 2px #000000;
+    box-shadow: 2px 2px 4px #000000;
     display: flex;
     box-sizing: border-box;
     padding: 1.5%;
@@ -181,4 +177,97 @@ table {
     color: #26408B;
     transition: 0.3s;
     cursor: pointer;
+}
+
+/* PORTFOLIO */
+
+#portfolio {
+    background-color: #171A21;
+    color: #ffffff;
+    font-weight: bolder;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5% 7% 5% 7%;
+    margin: auto;
+    flex-direction: column;
+}
+
+#portfolio h2 {
+    text-align: center;
+    font-family: 'Staatliches', sans-serif;
+    color: #26408B;
+    font-size: 40pt;
+    font-weight: bolder;
+    background: url("../img/background.png") no-repeat center;
+    margin-bottom: 5%;
+}
+
+/* FIRST PROJECT */
+
+#first table {
+    margin-top: 5%;
+    padding: 0%;
+    vertical-align: top;
+}
+
+#first td {
+    vertical-align: top;
+    margin: 0%;
+    padding: 0%;
+}
+
+#first h1 {
+    color: #26408B;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+
+#first h3 {
+    color: #ffffff;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+    margin-top: 0%;
+}
+
+#first p {
+    text-align: justify;
+    width: 650px;
+    font-size: 10pt;
+}
+
+#firstButton button {
+    background-color: #26408B;
+    color: #ffffff;
+    font-size: 12pt;
+    font-family: 'Staatliches', sans-serif;
+    font-weight: bolder;
+    border: none;
+    box-shadow: 2px 2px 4px #000000;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 2%;
+    border-radius: 30px;
+    margin: auto;
+    margin-right: 1%;
+}
+
+#firstButton button:hover {
+    background-color: #ffffff;
+    color: #26408B;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#first img {
+    width: 600px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 6px 6px 9px #000000;
+    margin-right: 100px;
 }
