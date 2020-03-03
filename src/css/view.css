@@ -37,7 +37,7 @@ a {
     list-style: none;
     display: block;
     align-content: center;
-    padding: 2% 16px 1.5% 16px;
+    padding: 20px 16px 16px 16px;
 }
 
 #topMenu li:first-child {
@@ -98,7 +98,7 @@ a {
     box-shadow: 2px 2px 4px #000000;
     display: flex;
     box-sizing: border-box;
-    padding: 5%;
+    padding: 24px;
     border-radius: 50px;
 }
 
@@ -111,7 +111,7 @@ a {
 
 table {
     align-items: center;
-    padding: 12% 10% 10% 0%;
+    padding: 180px 10% 10% 0%;
 }
 
 /* ABOUT */
@@ -125,7 +125,7 @@ table {
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
-    padding: 5% 7% 5% 7%;
+    padding: 5% 6% 5% 6%;
     margin: auto;
 }
 
@@ -167,7 +167,7 @@ table {
     box-shadow: 2px 2px 4px #000000;
     display: flex;
     box-sizing: border-box;
-    padding: 1.5%;
+    padding: 24px;
     border-radius: 50px;
     margin: auto;
 }
@@ -189,7 +189,7 @@ table {
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
-    padding: 5% 7% 5% 7%;
+    padding: 5% 6% 5% 6%;
     margin: auto;
     flex-direction: column;
 }
@@ -207,7 +207,7 @@ table {
 /* FIRST PROJECT */
 
 #first table {
-    margin-top: 5%;
+    margin-top: 2%;
     padding: 0%;
     vertical-align: top;
 }
@@ -250,7 +250,7 @@ table {
     box-shadow: 2px 2px 4px #000000;
     display: inline-block;
     box-sizing: border-box;
-    padding: 2%;
+    padding: 18px;
     border-radius: 30px;
     margin: auto;
     margin-right: 1%;
