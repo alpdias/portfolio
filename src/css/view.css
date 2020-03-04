@@ -111,7 +111,7 @@ a {
 
 table {
     align-items: center;
-    padding: 180px 10% 10% 0%;
+    padding: 240px 10% 0% 0%;
 }
 
 /* ABOUT */
@@ -152,7 +152,8 @@ table {
     font-size: 13pt;
 }
 
-#about h4 {
+#about h4, h3 {
+    font-size: 12pt;
     margin-top: 0%;
     margin-bottom: 0%;
 }

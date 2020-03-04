@@ -34,9 +34,13 @@ PORTFOLIO [BUTTON]
 
 ABOUT ME
 
-If you wanna know who I am...
+If you want to know who I am ...
 
-???
+I'm Paulo, 23 years old, and I'm studying and learning programming.
+
+I am studying and learning programming to become a developer, so far all I have learned was self-taught, watching online courses, video classes and reading documentation. 
+And as we know that the best way to learn is by practicing, I created this portfolio and a repository on GitHub to practice my knowledge and share everything 
+I am learning with programming and also with other technologies that I learn on the way and that I can share. Soon, I will add new projects here or in my repository.
 
 My current knowledge in languages / technologies is:
 
@@ -54,6 +58,11 @@ This is my first portfolio, I did it with the purpose of learning and to show th
 I created with the idea of ​​being a static, simple and practical website, just using HTML and CSS to learn web development.
 
 SOURCE [BUTTON] VISIT [BUTTON]
+
+
+
+
+
 
 CONTROLE DE ESTOQUE
 
