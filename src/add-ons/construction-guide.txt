@@ -1,6 +1,6 @@
 Colors used -->
 
-Background: #171A21
+Background: rgb(28, 35, 49)
 Main color: #ffffff
 Additional color: #26408B
 
@@ -59,18 +59,20 @@ I created with the idea of ​​being a static, simple and practical website, j
 
 SOURCE [BUTTON] VISIT [BUTTON]
 
+INVENTORY CONTROL
 
-
-
-
-
-CONTROLE DE ESTOQUE
+This is a simple inventory control project, using JavaScript, HTML5 and CSS3. I did it with the intuition of putting into practice what I am learning in the JS course 
+and with that I put functions to add and remove items from a stock list, being able to remove the items in their entirety or item by item, and with verification functions 
+entry and exit of information.
 
 [IMG]
 
-???
-
 SOURCE [BUTTON] VISIT [BUTTON]
+
+
+
+
+
 
 FOR MORE
 

@@ -18,7 +18,7 @@ a {
 /* TOP MENU */
 
 #topMenu {
-    background-color: rgba(23, 26, 33, 0.89);
+    background-color: rgba(28, 35, 49, 0.89);
     color: #ffffff;
     font-size: 14pt;
     font-family: 'Staatliches', sans-serif;
@@ -60,7 +60,7 @@ a {
 /* PRESENTATION */
 
 #presentation {
-    background-color: #171A21;
+    background-color: rgb(28, 35, 49);
     font-weight: bolder;
     display: block;
     height: 100vh;
@@ -79,7 +79,7 @@ a {
 
 #presentation h2 {
     font-weight: bolder;
-    margin-top: 4%;
+    margin-top: 20px;
 }
 
 #presentation h3 {
@@ -107,6 +107,8 @@ a {
     color: #26408B;
     transition: 0.3s;
     cursor: pointer;
+    font-size: 16pt;
+    padding: 28px;
 }
 
 table {
@@ -117,7 +119,7 @@ table {
 /* ABOUT */
 
 #about {
-    background-color: #171A21;
+    background-color: rgb(28, 35, 49);
     font-weight: bolder;
     text-align: center;
     display: flex;
@@ -125,7 +127,7 @@ table {
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
-    padding: 5% 6% 5% 6%;
+    padding: 70px 6% 70px 6%;
     margin: auto;
 }
 
@@ -134,8 +136,8 @@ table {
     font-family: 'Staatliches', sans-serif;
     font-size: 20pt;
     font-weight: bolder;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 #about h2 {
     font-family: 'Staatliches', sans-serif;
@@ -146,9 +148,9 @@ table {
     background: url("../img/background.png") no-repeat center;
 }
 
-#about h5{
+#about h5 {
     margin-top: 0%;
-    margin-bottom: 5%;
+    margin-bottom: 60px;
     font-size: 13pt;
 }
 
@@ -178,19 +180,21 @@ table {
     color: #26408B;
     transition: 0.3s;
     cursor: pointer;
+    font-size: 16pt;
+    padding: 28px;
 }
 
 /* PORTFOLIO */
 
 #portfolio {
-    background-color: #171A21;
+    background-color: rgb(28, 35, 49);
     color: #ffffff;
     font-weight: bolder;
     display: flex;
-    height: 100vh;
+    height: 200vh;
     width: 100%;
     box-sizing: border-box;
-    padding: 5% 6% 5% 6%;
+    padding: 60px 6% 60px 6%;
     margin: auto;
     flex-direction: column;
 }
@@ -202,13 +206,13 @@ table {
     font-size: 40pt;
     font-weight: bolder;
     background: url("../img/background.png") no-repeat center;
-    margin-bottom: 5%;
+    margin-bottom: 40px;
 }
 
 /* FIRST PROJECT */
 
 #first table {
-    margin-top: 2%;
+    margin-top: 60px;
     padding: 0%;
     vertical-align: top;
 }
@@ -224,7 +228,7 @@ table {
     font-family: 'Staatliches', sans-serif;
     font-size: 20pt;
     font-weight: bolder;
-    margin-bottom: 5%;
+    margin-bottom: 30px;
 }
 
 #first h3 {
@@ -254,7 +258,7 @@ table {
     padding: 18px;
     border-radius: 30px;
     margin: auto;
-    margin-right: 1%;
+    margin-right: 10px;
 }
 
 #firstButton button:hover {
@@ -262,6 +266,8 @@ table {
     color: #26408B;
     transition: 0.3s;
     cursor: pointer;
+    font-size: 14pt;
+    padding: 20px;
 }
 
 #first img {
@@ -271,4 +277,86 @@ table {
     border: none;
     box-shadow: 6px 6px 9px #000000;
     margin-right: 100px;
+}
+
+#first img:hover {
+    width: 601px;
+    box-shadow: 3px 3px 9px #ffffff;
+    transition: 0.3s;
+}
+
+/* SECOND PROJECT */
+
+#second table {
+    margin-top: 120px;
+    padding: 0%;
+    vertical-align: top;
+}
+
+#second td {
+    vertical-align: top;
+    margin: 0%;
+    padding: 0%;
+}
+
+#second h1 {
+    color: #26408B;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+#second h3 {
+    color: #ffffff;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+    margin-top: 0%;
+}
+
+#second p {
+    text-align: justify;
+    width: 650px;
+    font-size: 10pt;
+}
+
+#secondButton button {
+    background-color: #26408B;
+    color: #ffffff;
+    font-size: 12pt;
+    font-family: 'Staatliches', sans-serif;
+    font-weight: bolder;
+    border: none;
+    box-shadow: 2px 2px 4px #000000;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 18px;
+    border-radius: 30px;
+    margin: auto;
+    margin-right: 10px;
+}
+
+#secondButton button:hover {
+    background-color: #ffffff;
+    color: #26408B;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 14pt;
+}
+
+#second img {
+    width: 600px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px 3px #000000;
+    margin-left: 100px;
+}
+
+#second img:hover {
+    width: 601px;
+    box-shadow: 3px 3px 9px #ffffff;
+    transition: 0.3s;
 }
