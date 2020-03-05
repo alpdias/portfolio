@@ -108,7 +108,7 @@ a {
     transition: 0.3s;
     cursor: pointer;
     font-size: 16pt;
-    padding: 28px;
+    padding: 24.5px;
 }
 
 table {
@@ -127,7 +127,7 @@ table {
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
-    padding: 70px 6% 70px 6%;
+    padding: 70px 6% 0px 6%;
     margin: auto;
 }
 
@@ -156,7 +156,7 @@ table {
 
 #about h4, h3 {
     font-size: 12pt;
-    margin-top: 0%;
+    margin-top: 30px;
     margin-bottom: 0%;
 }
 
@@ -181,7 +181,7 @@ table {
     transition: 0.3s;
     cursor: pointer;
     font-size: 16pt;
-    padding: 28px;
+    padding: 24.5px;
 }
 
 /* PORTFOLIO */
@@ -191,11 +191,11 @@ table {
     color: #ffffff;
     font-weight: bolder;
     display: flex;
-    height: 200vh;
+    height: 220vh;
     width: 100%;
     box-sizing: border-box;
-    padding: 60px 6% 60px 6%;
-    margin: auto;
+    padding: 70px 6% 60px 6%;
+    margin-top: 100px;
     flex-direction: column;
 }
 
@@ -267,7 +267,7 @@ table {
     transition: 0.3s;
     cursor: pointer;
     font-size: 14pt;
-    padding: 20px;
+    padding: 18.5px;
 }
 
 #first img {
@@ -342,7 +342,7 @@ table {
     color: #26408B;
     transition: 0.3s;
     cursor: pointer;
-    padding: 20px;
+    padding: 18.5px;
     font-size: 14pt;
 }
 
@@ -357,6 +357,39 @@ table {
 
 #second img:hover {
     width: 601px;
+    box-shadow: 3px 3px 9px #ffffff;
+    transition: 0.3s;
+}
+
+/* MORE PROJECTS */
+
+#moreProjects {
+    align-content: center;
+    text-align: center;
+}
+
+#moreProjects h2 {
+    margin-top: 120px;
+}
+
+#moreProjects h4 {
+    margin-bottom: 60px;
+}
+
+#moreProjects i {
+    font-size: 18pt;
+}
+
+#moreProjects img {
+    width: 800px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px 3px #000000;
+}
+
+#moreProjects img:hover {
+    width: 801px;
     box-shadow: 3px 3px 9px #ffffff;
     transition: 0.3s;
 }
