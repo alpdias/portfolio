@@ -69,16 +69,17 @@ entry and exit of information.
 
 SOURCE [BUTTON] VISIT [BUTTON]
 
-
-
-
-
-
 FOR MORE
 
 To see more of my projects, especially Python, visit my GitHub page
 
 [IMG]
+
+
+
+
+
+
 
 CONTACT ME
 if you want to talk to me, or need to find me
