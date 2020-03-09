@@ -107,8 +107,6 @@ a {
     color: #26408B;
     transition: 0.3s;
     cursor: pointer;
-    font-size: 16pt;
-    padding: 24.5px;
 }
 
 table {
@@ -180,8 +178,6 @@ table {
     color: #26408B;
     transition: 0.3s;
     cursor: pointer;
-    font-size: 16pt;
-    padding: 24.5px;
 }
 
 /* PORTFOLIO */
@@ -266,8 +262,6 @@ table {
     color: #26408B;
     transition: 0.3s;
     cursor: pointer;
-    font-size: 14pt;
-    padding: 18.5px;
 }
 
 #first img {
@@ -280,7 +274,6 @@ table {
 }
 
 #first img:hover {
-    width: 601px;
     box-shadow: 3px 3px 9px #ffffff;
     transition: 0.3s;
 }
@@ -342,8 +335,6 @@ table {
     color: #26408B;
     transition: 0.3s;
     cursor: pointer;
-    padding: 18.5px;
-    font-size: 14pt;
 }
 
 #second img {
@@ -356,7 +347,6 @@ table {
 }
 
 #second img:hover {
-    width: 601px;
     box-shadow: 3px 3px 9px #ffffff;
     transition: 0.3s;
 }
@@ -389,7 +379,6 @@ table {
 }
 
 #moreProjects img:hover {
-    width: 801px;
     box-shadow: 3px 3px 9px #ffffff;
     transition: 0.3s;
 }
