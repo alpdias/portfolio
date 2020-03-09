@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap');
 
 html, body {
-    background-color: red;
+    background-color: rgb(28, 35, 49);
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
@@ -137,6 +137,7 @@ table {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 #about h2 {
     font-family: 'Staatliches', sans-serif;
     color: #26408B;
@@ -381,4 +382,64 @@ table {
 #moreProjects img:hover {
     box-shadow: 3px 3px 9px #ffffff;
     transition: 0.3s;
+}
+
+/* CONTACT */
+
+#contact {
+    background-color: rgb(28, 35, 49);
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 70px 6% 0px 6%;
+    margin: auto;
+}
+
+#contact h2 {
+    font-family: 'Staatliches', sans-serif;
+    color: #26408B;
+    font-size: 40pt;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    background: url("../img/background.png") no-repeat center;
+}
+
+#contact h5 {
+    margin-top: 0px;
+    margin-bottom: 200px;
+    font-size: 13pt;
+}
+
+#contactIcon i {
+    font-size: 80pt;
+    color: #ffffff;
+}
+
+#contactIcon i:hover {
+    color: #26408B;
+    transition: 0.3s;
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: rgb(28, 35, 49);
+    color: #ffffff21;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 5vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 6% 0px 6%;
+    margin: auto;
+}
+
+#footer h4 {
+    font-size: 6pt;
 }
