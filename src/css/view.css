@@ -111,6 +111,7 @@ a {
 table {
     align-items: center;
     margin-top: 10%;
+    margin-bottom: 13%;
 }
 
 /* ABOUT */
@@ -171,6 +172,7 @@ table {
     padding: 24px;
     border-radius: 50px;
     margin: auto;
+    margin-bottom: 2%;
 }
 
 #aboutButton button:hover {
@@ -266,7 +268,7 @@ table {
 
 #first img {
     width: 500px;
-    max-width: 600px;
+    max-width: 650px;
     box-sizing: border-box;
     border-radius: 5px;
     border: none;
@@ -341,7 +343,7 @@ table {
 
 #second img {
     width: 500px;
-    max-width: 600px;
+    max-width: 650px;
     box-sizing: border-box;
     border-radius: 5px;
     border: none;
