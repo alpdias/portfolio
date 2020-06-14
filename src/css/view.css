@@ -266,7 +266,7 @@ table {
 }
 
 #first img {
-    width: 650px;
+    width: 550px;
     box-sizing: border-box;
     border-radius: 5px;
     border: none;
@@ -340,7 +340,7 @@ table {
 }
 
 #second img {
-    width: 650px;
+    width: 550px;
     box-sizing: border-box;
     border-radius: 5px;
     border: none;
@@ -394,9 +394,9 @@ table {
     background-color: rgb(28, 35, 49);
     font-weight: bolder;
     text-align: center;
-    display: inline-block;
+    display: flex;
     flex-direction: column;
-    height: 95%;
+    height: 100%;
     width: 100%;
     box-sizing: border-box;
     padding: 70px 70px 70px 70px;
