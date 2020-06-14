@@ -6,7 +6,7 @@ html, body {
     background-color: rgb(28, 35, 49);
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    margin: 0%;
+    margin: 0px;
     scroll-behavior: smooth;
 }
 
@@ -26,10 +26,10 @@ a {
     box-sizing: border-box;
     box-shadow: 1px 1px 2px #000000;
     display: flex;
-    margin: 0%;
+    margin: 0px;
     width: 100%;
     position: fixed;
-    padding: 0% 5% 0% 5%;
+    padding: 0px 58px 0px 58px;
 }
 
 #topMenu li {
@@ -65,26 +65,26 @@ a {
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
-    padding: 4% 6% 4% 6%;
+    padding: 70px 70px 70px 70px;
     margin: auto;
 }
 
 #presentation h1 {
     font-size: 40pt;
     font-weight: bolder;
-    margin-bottom: 0%;
-    margin-top: 0%;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 #presentation h2 {
     font-weight: bolder;
-    margin-top: 4%;
+    margin-top: 10px;
 }
 
 #presentation h3 {
     font-size: 40pt;
     font-weight: bolder;
-    margin-bottom: 0%;
+    margin-bottom: 0px;
 }
 
 #presentation button {
@@ -124,7 +124,7 @@ table {
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
-    padding: 4% 6% 4% 6%;
+    padding: 70px 70px 70px 70px;
     margin: auto;
 }
 
@@ -133,8 +133,8 @@ table {
     font-family: 'Staatliches', sans-serif;
     font-size: 20pt;
     font-weight: bolder;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 #about h2 {
@@ -143,20 +143,20 @@ table {
     font-size: 40pt;
     font-weight: bolder;
     margin-top: 86px;
-    margin-bottom: 0%;
+    margin-bottom: 0px;
     background: url("../img/background.png") no-repeat center;
 }
 
 #about h5 {
-    margin-top: 0%;
-    margin-bottom: 2%;
+    margin-top: 0px;
+    margin-bottom: 20px;
     font-size: 13pt;
 }
 
 #about h4, h3 {
     font-size: 12pt;
-    margin-top: 2%;
-    margin-bottom: 0%;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 #aboutButton button {
