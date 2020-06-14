@@ -62,7 +62,7 @@ a {
     background-color: rgb(28, 35, 49);
     font-weight: bolder;
     display: flex;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     box-sizing: border-box;
     padding: 70px 70px 70px 70px;
@@ -78,7 +78,7 @@ a {
 
 #presentation h2 {
     font-weight: bolder;
-    margin-top: 10px;
+    margin-top: 2%;
 }
 
 #presentation h3 {
@@ -110,7 +110,7 @@ a {
 
 table {
     align-items: center;
-    margin-top: 12%;
+    margin-top: 10%;
 }
 
 /* ABOUT */
@@ -119,13 +119,12 @@ table {
     background-color: rgb(28, 35, 49);
     font-weight: bolder;
     text-align: center;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     box-sizing: border-box;
     padding: 70px 70px 70px 70px;
-    margin: auto;
 }
 
 #about h1 {
@@ -133,8 +132,8 @@ table {
     font-family: 'Staatliches', sans-serif;
     font-size: 20pt;
     font-weight: bolder;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 #about h2 {
@@ -142,20 +141,20 @@ table {
     color: #26408B;
     font-size: 40pt;
     font-weight: bolder;
-    margin-top: 86px;
+    margin-top: 2%;
     margin-bottom: 0px;
     background: url("../img/background.png") no-repeat center;
 }
 
 #about h5 {
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 3%;
     font-size: 13pt;
 }
 
 #about h4, h3 {
     font-size: 12pt;
-    margin-top: 20px;
+    margin-top: 3%;
     margin-bottom: 0px;
 }
 
@@ -187,8 +186,8 @@ table {
     background-color: rgb(28, 35, 49);
     color: #ffffff;
     font-weight: bolder;
-    display: flex;
-    height: 100vh;
+    display: inline-block;
+    height: 220%;
     width: 100%;
     box-sizing: border-box;
     padding: 70px 70px 70px 70px;
@@ -202,14 +201,13 @@ table {
     font-size: 40pt;
     font-weight: bolder;
     background: url("../img/background.png") no-repeat center;
-    margin-bottom: 20px;
-    margin-top: 86px;
+    margin-top: 2%;
 }
 
 /* FIRST PROJECT */
 
 #first table {
-    margin-top: 90px;
+    margin-top: 6%;
     padding: 0px;
     vertical-align: top;
 }
@@ -225,7 +223,7 @@ table {
     font-family: 'Staatliches', sans-serif;
     font-size: 20pt;
     font-weight: bolder;
-    margin-bottom: 30px;
+    margin-bottom: 3%;
 }
 
 #first h3 {
@@ -238,8 +236,8 @@ table {
 
 #first p {
     text-align: justify;
-    width: 650px;
-    max-width: 400px;
+    width: 500px;
+    max-width: 650px;
     font-size: 10pt;
 }
 
@@ -267,7 +265,8 @@ table {
 }
 
 #first img {
-    width: 600px;
+    width: 500px;
+    max-width: 600px;
     box-sizing: border-box;
     border-radius: 5px;
     border: none;
@@ -283,15 +282,15 @@ table {
 /* SECOND PROJECT */
 
 #second table {
-    margin-top: 120px;
-    padding: 0%;
+    margin-top: 6%;
+    padding: 0px;
     vertical-align: top;
 }
 
 #second td {
     vertical-align: top;
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
 }
 
 #second h1 {
@@ -299,7 +298,7 @@ table {
     font-family: 'Staatliches', sans-serif;
     font-size: 20pt;
     font-weight: bolder;
-    margin-bottom: 30px;
+    margin-bottom: 3%;
 }
 
 #second h3 {
@@ -307,12 +306,13 @@ table {
     font-family: 'Staatliches', sans-serif;
     font-size: 20pt;
     font-weight: bolder;
-    margin-top: 0%;
+    margin-top: 0px;
 }
 
 #second p {
     text-align: justify;
-    width: 650px;
+    width: 500px;
+    max-width: 650px;
     font-size: 10pt;
 }
 
@@ -340,7 +340,8 @@ table {
 }
 
 #second img {
-    width: 600px;
+    width: 500px;
+    max-width: 600px;
     box-sizing: border-box;
     border-radius: 5px;
     border: none;
@@ -361,11 +362,13 @@ table {
 }
 
 #moreProjects h2 {
-    margin-top: 120px;
+    margin-top: 6%;
+    margin-bottom: 0px;
 }
 
 #moreProjects h4 {
-    margin-bottom: 60px;
+    margin-top: 0px;
+    margin-bottom: 3%;
 }
 
 #moreProjects i {
@@ -373,7 +376,8 @@ table {
 }
 
 #moreProjects img {
-    width: 800px;
+    width: 700px;
+    max-width: 800px;
     box-sizing: border-box;
     border-radius: 5px;
     border: none;
@@ -391,13 +395,12 @@ table {
     background-color: rgb(28, 35, 49);
     font-weight: bolder;
     text-align: center;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
-    height: 95vh;
+    height: 95%;
     width: 100%;
     box-sizing: border-box;
-    padding: 70px 6% 0px 6%;
-    margin: auto;
+    padding: 70px 70px 70px 70px;
 }
 
 #contact h2 {
@@ -405,17 +408,19 @@ table {
     color: #26408B;
     font-size: 40pt;
     font-weight: bolder;
+    margin-top: 2%;
     margin-bottom: 0px;
     background: url("../img/background.png") no-repeat center;
 }
 
 #contact h5 {
     margin-top: 0px;
-    margin-bottom: 200px;
+    margin-bottom: 10%;
     font-size: 13pt;
 }
 
 #contactIcon i {
+    margin-bottom: 10%;
     font-size: 80pt;
     color: #ffffff;
 }
@@ -432,12 +437,11 @@ table {
     color: #ffffff21;
     font-weight: bolder;
     text-align: center;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
-    height: 5vh;
     width: 100%;
     box-sizing: border-box;
-    padding: 0px 6% 0px 6%;
+    padding: 10px 70px 10px 70px;
     margin: auto;
 }
 
