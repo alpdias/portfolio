@@ -110,7 +110,7 @@ a {
 
 table {
     align-items: center;
-    margin-top: 190px;
+    margin-top: 12%;
 }
 
 /* ABOUT */
@@ -188,10 +188,10 @@ table {
     color: #ffffff;
     font-weight: bolder;
     display: flex;
-    height: 220vh;
+    height: 100vh;
     width: 100%;
     box-sizing: border-box;
-    padding: 4% 6% 4% 6%;
+    padding: 70px 70px 70px 70px;
     flex-direction: column;
 }
 
@@ -202,21 +202,22 @@ table {
     font-size: 40pt;
     font-weight: bolder;
     background: url("../img/background.png") no-repeat center;
-    margin-bottom: 2%;
+    margin-bottom: 20px;
+    margin-top: 86px;
 }
 
 /* FIRST PROJECT */
 
 #first table {
-    margin-top: 6%;
-    padding: 0%;
+    margin-top: 90px;
+    padding: 0px;
     vertical-align: top;
 }
 
 #first td {
     vertical-align: top;
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
 }
 
 #first h1 {
@@ -224,7 +225,7 @@ table {
     font-family: 'Staatliches', sans-serif;
     font-size: 20pt;
     font-weight: bolder;
-    margin-bottom: 3%;
+    margin-bottom: 30px;
 }
 
 #first h3 {
@@ -232,12 +233,13 @@ table {
     font-family: 'Staatliches', sans-serif;
     font-size: 20pt;
     font-weight: bolder;
-    margin-top: 0%;
+    margin-top: 0px;
 }
 
 #first p {
     text-align: justify;
     width: 650px;
+    max-width: 400px;
     font-size: 10pt;
 }
 
