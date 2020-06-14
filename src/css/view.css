@@ -215,6 +215,7 @@ table {
 }
 
 #first td {
+    text-align: justify;
     vertical-align: top;
     margin: 0px;
     padding: 0px;
@@ -265,12 +266,13 @@ table {
 }
 
 #first img {
-    width: 550px;
+    width: 650px;
     box-sizing: border-box;
     border-radius: 5px;
     border: none;
     box-shadow: 6px 6px 9px #000000;
-    margin-right: 50px;
+    margin-left: 0px;
+    margin-right: 30px;
 }
 
 #first img:hover {
@@ -287,6 +289,7 @@ table {
 }
 
 #second td {
+    text-align: justify;
     vertical-align: top;
     margin: 0px;
     padding: 0px;
@@ -337,12 +340,13 @@ table {
 }
 
 #second img {
-    width: 550px;
+    width: 650px;
     box-sizing: border-box;
     border-radius: 5px;
     border: none;
     box-shadow: 3px 3px 3px #000000;
-    margin-left: 50px;
+    margin-left: 30px;
+    margin-right: 0px;
 }
 
 #second img:hover {
