@@ -267,13 +267,12 @@ table {
 }
 
 #first img {
-    width: 500px;
-    max-width: 650px;
+    width: 650px;
     box-sizing: border-box;
     border-radius: 5px;
     border: none;
     box-shadow: 6px 6px 9px #000000;
-    margin-right: 100px;
+    margin-right: 80px;
 }
 
 #first img:hover {
@@ -342,13 +341,12 @@ table {
 }
 
 #second img {
-    width: 500px;
-    max-width: 650px;
+    width: 650px;
     box-sizing: border-box;
     border-radius: 5px;
     border: none;
     box-shadow: 3px 3px 3px #000000;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 #second img:hover {
@@ -378,8 +376,7 @@ table {
 }
 
 #moreProjects img {
-    width: 700px;
-    max-width: 800px;
+    width: 800px;
     box-sizing: border-box;
     border-radius: 5px;
     border: none;
