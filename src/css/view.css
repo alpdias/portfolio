@@ -237,9 +237,7 @@ table {
 }
 
 #first p {
-    text-align: justify;
     width: 500px;
-    max-width: 650px;
     font-size: 10pt;
 }
 
@@ -267,12 +265,12 @@ table {
 }
 
 #first img {
-    width: 650px;
+    width: 550px;
     box-sizing: border-box;
     border-radius: 5px;
     border: none;
     box-shadow: 6px 6px 9px #000000;
-    margin-right: 80px;
+    margin-right: 50px;
 }
 
 #first img:hover {
@@ -283,7 +281,7 @@ table {
 /* SECOND PROJECT */
 
 #second table {
-    margin-top: 6%;
+    margin-top: 4%;
     padding: 0px;
     vertical-align: top;
 }
@@ -311,9 +309,7 @@ table {
 }
 
 #second p {
-    text-align: justify;
     width: 500px;
-    max-width: 650px;
     font-size: 10pt;
 }
 
@@ -341,12 +337,12 @@ table {
 }
 
 #second img {
-    width: 650px;
+    width: 550px;
     box-sizing: border-box;
     border-radius: 5px;
     border: none;
     box-shadow: 3px 3px 3px #000000;
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
 #second img:hover {
