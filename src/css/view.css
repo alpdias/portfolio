@@ -29,15 +29,14 @@ a {
     margin: 0%;
     width: 100%;
     position: fixed;
-    padding-left: 6%;
-    padding-right: 6%;
+    padding: 0% 5% 0% 5%;
 }
 
 #topMenu li {
     list-style: none;
     display: block;
     align-content: center;
-    padding: 20px 16px 16px 16px;
+    padding: 20px 16px 20px 16px;
 }
 
 #topMenu li:first-child {
@@ -62,11 +61,11 @@ a {
 #presentation {
     background-color: rgb(28, 35, 49);
     font-weight: bolder;
-    display: block;
+    display: flex;
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
-    padding: 0%;
+    padding: 4% 6% 4% 6%;
     margin: auto;
 }
 
@@ -79,7 +78,7 @@ a {
 
 #presentation h2 {
     font-weight: bolder;
-    margin-top: 20px;
+    margin-top: 4%;
 }
 
 #presentation h3 {
@@ -111,7 +110,7 @@ a {
 
 table {
     align-items: center;
-    padding: 240px 10% 0% 0%;
+    margin-top: 190px;
 }
 
 /* ABOUT */
@@ -125,7 +124,7 @@ table {
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
-    padding: 70px 6% 0px 6%;
+    padding: 4% 6% 4% 6%;
     margin: auto;
 }
 
@@ -134,8 +133,8 @@ table {
     font-family: 'Staatliches', sans-serif;
     font-size: 20pt;
     font-weight: bolder;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 #about h2 {
@@ -143,19 +142,20 @@ table {
     color: #26408B;
     font-size: 40pt;
     font-weight: bolder;
+    margin-top: 86px;
     margin-bottom: 0%;
     background: url("../img/background.png") no-repeat center;
 }
 
 #about h5 {
     margin-top: 0%;
-    margin-bottom: 60px;
+    margin-bottom: 2%;
     font-size: 13pt;
 }
 
 #about h4, h3 {
     font-size: 12pt;
-    margin-top: 30px;
+    margin-top: 2%;
     margin-bottom: 0%;
 }
 
@@ -191,8 +191,7 @@ table {
     height: 220vh;
     width: 100%;
     box-sizing: border-box;
-    padding: 70px 6% 60px 6%;
-    margin-top: 100px;
+    padding: 4% 6% 4% 6%;
     flex-direction: column;
 }
 
@@ -203,13 +202,13 @@ table {
     font-size: 40pt;
     font-weight: bolder;
     background: url("../img/background.png") no-repeat center;
-    margin-bottom: 40px;
+    margin-bottom: 2%;
 }
 
 /* FIRST PROJECT */
 
 #first table {
-    margin-top: 60px;
+    margin-top: 6%;
     padding: 0%;
     vertical-align: top;
 }
@@ -225,7 +224,7 @@ table {
     font-family: 'Staatliches', sans-serif;
     font-size: 20pt;
     font-weight: bolder;
-    margin-bottom: 30px;
+    margin-bottom: 3%;
 }
 
 #first h3 {
