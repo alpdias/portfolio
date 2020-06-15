@@ -62,7 +62,7 @@ a {
     background-color: rgb(28, 35, 49);
     font-weight: bolder;
     display: flex;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     box-sizing: border-box;
     padding: 70px 70px 70px 70px;
@@ -122,7 +122,7 @@ table {
     text-align: center;
     display: inline-block;
     flex-direction: column;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     box-sizing: border-box;
     padding: 70px 70px 70px 70px;
@@ -189,7 +189,7 @@ table {
     color: #ffffff;
     font-weight: bolder;
     display: inline-block;
-    height: 200%;
+    height: 220vh;
     width: 100%;
     box-sizing: border-box;
     padding: 70px 70px 70px 70px;
@@ -397,10 +397,10 @@ table {
     text-align: center;
     display: inline-block;
     flex-direction: column;
-    height: 100%;
+    height: 90vh;
     width: 100%;
     box-sizing: border-box;
-    padding: 70px 70px 50px 70px;
+    padding: 70px 70px 70px 70px;
 }
 
 #contact h2 {
@@ -440,6 +440,7 @@ table {
     text-align: center;
     display: inline-block;
     flex-direction: column;
+    height: 10vh;
     width: 100%;
     box-sizing: border-box;
     margin: auto;
