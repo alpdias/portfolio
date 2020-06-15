@@ -400,7 +400,7 @@ table {
     height: 100%;
     width: 100%;
     box-sizing: border-box;
-    padding: 70px 70px 70px 70px;
+    padding: 70px 70px 10px 70px;
 }
 
 #contact h2 {
@@ -441,7 +441,6 @@ table {
     flex-direction: column;
     width: 100%;
     box-sizing: border-box;
-    padding: 10px 70px 10px 70px;
     margin: auto;
 }
 
