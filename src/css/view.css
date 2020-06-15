@@ -189,7 +189,7 @@ table {
     color: #ffffff;
     font-weight: bolder;
     display: inline-block;
-    height: 220%;
+    height: 200%;
     width: 100%;
     box-sizing: border-box;
     padding: 70px 70px 70px 70px;
@@ -284,6 +284,7 @@ table {
 
 #second table {
     margin-top: 4%;
+    margin-bottom: 0px;
     padding: 0px;
     vertical-align: top;
 }
@@ -394,7 +395,7 @@ table {
     background-color: rgb(28, 35, 49);
     font-weight: bolder;
     text-align: center;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     height: 100%;
     width: 100%;
@@ -414,12 +415,12 @@ table {
 
 #contact h5 {
     margin-top: 0px;
-    margin-bottom: 10%;
+    margin-bottom: 13.2%;
     font-size: 13pt;
 }
 
 #contactIcon i {
-    margin-bottom: 10%;
+    margin-bottom: 13.2%;
     font-size: 80pt;
     color: #ffffff;
 }
