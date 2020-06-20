@@ -11,8 +11,6 @@ en-US </br>
 
 ![portfolio](https://github.com/alpdias/portfolio-html-css/blob/master/src/img/portfolio.png)
 
-* <strong> Note </strong>: Has no responsiveness for mobile.
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9abea62b-8fb1-48be-a422-e33415dd7f82/deploy-status)](https://app.netlify.com/sites/paulodeveloper/deploys)
 
 ------------------------------------------------------------------------------------------------------------------
@@ -29,8 +27,6 @@ Codificação: -&lowast;- coding: utf-8 -&lowast;- </br>
 en-US </br>
 
 ![portfolio](https://github.com/alpdias/portfolio-html-css/blob/master/src/img/portfolio.png)
-
-* <strong>Observação</strong>: Não possui resposividade para mobile.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9abea62b-8fb1-48be-a422-e33415dd7f82/deploy-status)](https://app.netlify.com/sites/paulodeveloper/deploys)
 
