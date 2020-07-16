@@ -15,8 +15,6 @@ a {
     text-decoration-style: none;
 }
 
-/* TOP MENU */
-
 #topMenu {
     background-color: rgba(28, 35, 49, 0.89);
     color: #ffffff;
@@ -55,8 +53,6 @@ a {
     color: #26408B;
     transition: 0.3s;
 }
-
-/* PRESENTATION */
 
 #presentation {
     background-color: rgb(28, 35, 49);
@@ -113,8 +109,6 @@ table {
     margin-top: 10%;
     margin-bottom: 13%;
 }
-
-/* ABOUT */
 
 #about {
     background-color: rgb(28, 35, 49);
@@ -182,8 +176,6 @@ table {
     cursor: pointer;
 }
 
-/* PORTFOLIO */
-
 #portfolio {
     background-color: rgb(28, 35, 49);
     color: #ffffff;
@@ -205,8 +197,6 @@ table {
     background: url("../img/background.png") no-repeat center;
     margin-top: 2%;
 }
-
-/* FIRST PROJECT */
 
 #first table {
     margin-top: 6%;
@@ -281,8 +271,6 @@ table {
     transition: 0.3s;
 }
 
-/* SECOND PROJECT */
-
 #second table {
     margin-top: 6%;
     margin-bottom: 6%;
@@ -356,8 +344,6 @@ table {
     transition: 0.3s;
 }
 
-/* MORE PROJECTS */
-
 #moreProjects {
     align-content: center;
     text-align: center;
@@ -389,8 +375,6 @@ table {
     box-shadow: 3px 3px 9px #ffffff;
     transition: 0.3s;
 }
-
-/* CONTACT */
 
 #contact {
     background-color: rgb(28, 35, 49);
@@ -431,8 +415,6 @@ table {
     color: #26408B;
     transition: 0.3s;
 }
-
-/* FOOTER */
 
 #footer {
     background-color: rgb(28, 35, 49);
