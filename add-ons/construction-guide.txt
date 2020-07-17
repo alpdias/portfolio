@@ -44,7 +44,7 @@ I am learning with programming and also with other technologies that I learn on 
 
 My current knowledge in languages / technologies is:
 
-PYTHON - MYSQL - DATABASE - HTML - CSS - JAVASCRIPT - GITHUB - NODEJS
+PYTHON - MYSQL - DATABASE - HTML - CSS - JAVASCRIPT - GITHUB 
 
 GITHUB [BUTTON]
 
