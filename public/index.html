@@ -3,7 +3,7 @@
 -->
 
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Paulo | Developer</title>
@@ -13,82 +13,86 @@
         <script src="https://kit.fontawesome.com/cc2118f4fe.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div id="menu">
-            <nav>
+        <header>
+            <nav id="menu">
                 <li><a href="#presentation"><img src="../img/soon-paulo-white-edit.png"/></a></li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#portfolio">PORTFOLIO</a></li>
                 <li><a href="#contact">CONTACT</a></li>
             </nav>
-        </div>
-        <div id="present">
-            <p>Hi! &#128513;</p>
-            <p>I'm Paulo</p>
-            <p>Developer. Learning technologies.</p>
-            <button id="presentB"><a href="#portfolio">PORTFOLIO</a></button>
-        </div>
-        <h2>ABOUT ME</h2>
-        <div id="about">
-            <p>If you wanna know who I am...</p>
-            <p>I'm Paulo, and I'm learning to program and getting to know new technologies.</p>
-            <p>I am studying and learning programming to become a developer, so far all I have learned was self-taught, watching online courses, video classes and 
-                reading documentation. And as we know that the best way to learn is by practicing, I created this portfolio and a repository on GitHub to practice my 
-                knowledge and share everything I am learning with programming and also with other technologies that I learn on the way and that I can share. Soon, I 
-                will add new projects here or in my repository.</p>
-            <p>My current knowledge in languages / technologies is:</p>    
-            <h1>PYTHON - MYSQL - DATABASE - HTML - CSS - JAVASCRIPT - GITHUB</h1>
-            <button id="aboutB"><a href="https://github.com/alpdias" target="_blank">GITHUB <i class="fab fa-github"></i></a></button>
-        </div>   
-        <h2>PORTFOLIO</h2>
-        <div id="one">
-            <table>
-                <tbody id="onet">
-                    <tr>
-                        <!-- rowspan="2" -->
-                        <td><img src="../img/portfolio.png"></td>
-                        <td>
-                            <h3>PAULO PORTFOLIO</h3>
-                            <p>This is my first portfolio, I did it with the purpose of learning and to show the projects I'm working on. I created with the idea 
-                                of ​​being a static, simple and practical website, just using HTML and CSS to learn web development.</p>
-                            <h1>HTML5 - CSS3</h1> 
-                            <button id="oneB"><a href="https://github.com/alpdias/portfolio-html-css" target="_blank">SOURCE <i class="fab fa-github"></i></a></button>
-                            <button id="oneB"><a href="#presentation" target="_blank">VISIT <i class="fas fa-link"></i></a></button>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div id="two">
-            <table>
-                <tbody id="twot">
-                    <tr>
-                        <td>
-                            <h3>INVENTORY CONTROL</h3>
-                            <p>This is a simple inventory control project, using JavaScript, HTML5 and CSS3. I did it with the intuition of putting into practice 
-                                what I am learning in the JS course and with that I put functions to add and remove items from a stock list, being able to remove the 
-                                items in their entirety or item by item, and with verification functions entry and exit of information.</p>
-                            <h1>JAVASCRIPT - HTML5 - CSS3</h1> 
-                            <button id="twoB"><a href="https://github.com/alpdias/controle-estoque-js" target="_blank">SOURCE <i class="fab fa-github"></i></a></button>
-                            <button id="twoB"><a href="https://controle-estoque.netlify.com/" target="_blank">VISIT <i class="fas fa-link"></i></a></button>
-                        </td>
-                         <!-- rowspan="2" -->
-                        <td><img src="../img/controle-estoque.png"></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <h2>FOR MORE</h2>
-        <div id="more">
-            <p>To see more of my projects, especially Python <i class="fab fa-python"></i> visit my <strong>GitHub</strong> page</p>
-            <img src="../img/project-git.png">
-        </div>
-        <h2>CONTACT</h2>
-        <div id="contact">
-            <p>if you want to talk to me, or need to find me</p> 
-            <a id="icontact" href="https://github.com/alpdias" target="_blank"><i class="fas fa-address-card"></i></a>
-        </div>
-        <div id="foot">
-             <footer>COPYRIGHT &copy; 2020 | <a href="https://github.com/alpdias" target="_blank">PAULO</a></footer>
-        </div>
+        </header>
+        <main id="app">
+            <section id="present">
+                <p>Hi! &#128513;</p>
+                <p>I'm Paulo</p>
+                <p>Developer. Learning technologies.</p>
+                <button id="presentB"><a href="#portfolio">PORTFOLIO</a></button>
+            </section>
+            <section id="about">
+                <h2>ABOUT ME</h2>
+                <p>If you wanna know who I am...</p>
+                <p>I'm Paulo, and I'm learning to program and getting to know new technologies.</p>
+                <p>I am studying and learning programming to become a developer, so far all I have learned was self-taught, watching online courses, video classes and 
+                    reading documentation. And as we know that the best way to learn is by practicing, I created this portfolio and a repository on GitHub to practice my 
+                    knowledge and share everything I am learning with programming and also with other technologies that I learn on the way and that I can share. Soon, I 
+                    will add new projects here or in my repository.</p>
+                <p>My current knowledge in languages / technologies is:</p>    
+                <h1>PYTHON - MYSQL - DATABASE - HTML - CSS - JAVASCRIPT - GITHUB</h1>
+                <button id="aboutB"><a href="https://github.com/alpdias" target="_blank">GITHUB <i class="fab fa-github"></i></a></button>
+            </section> 
+            <section id="portfolio">
+                <h2>PORTFOLIO</h2>
+                <div id="one">
+                    <table>
+                        <tbody id="onet">
+                            <tr>
+                                <!-- rowspan="2" -->
+                                <td><img src="../img/portfolio.png"></td>
+                                <td>
+                                    <h3>PAULO PORTFOLIO</h3>
+                                    <p>This is my first portfolio, I did it with the purpose of learning and to show the projects I'm working on. I created with the idea 
+                                        of ​​being a static, simple and practical website, just using HTML and CSS to learn web development.</p>
+                                    <h1>HTML5 - CSS3</h1> 
+                                    <button id="oneB"><a href="https://github.com/alpdias/portfolio-html-css" target="_blank">SOURCE <i class="fab fa-github"></i></a></button>
+                                    <button id="oneB"><a href="#presentation" target="_blank">VISIT <i class="fas fa-link"></i></a></button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="two">
+                    <table>
+                        <tbody id="twot">
+                            <tr>
+                                <td>
+                                    <h3>INVENTORY CONTROL</h3>
+                                    <p>This is a simple inventory control project, using JavaScript, HTML5 and CSS3. I did it with the intuition of putting into practice 
+                                        what I am learning in the JS course and with that I put functions to add and remove items from a stock list, being able to remove the 
+                                        items in their entirety or item by item, and with verification functions entry and exit of information.</p>
+                                    <h1>JAVASCRIPT - HTML5 - CSS3</h1> 
+                                    <button id="twoB"><a href="https://github.com/alpdias/controle-estoque-js" target="_blank">SOURCE <i class="fab fa-github"></i></a></button>
+                                    <button id="twoB"><a href="https://controle-estoque.netlify.com/" target="_blank">VISIT <i class="fas fa-link"></i></a></button>
+                                </td>
+                                <!-- rowspan="2" -->
+                                <td><img src="../img/controle-estoque.png"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="more">
+                    <h2>FOR MORE</h2>
+                    <p>To see more of my projects, especially Python <i class="fab fa-python"></i> visit my <strong>GitHub</strong> page</p>
+                    <img src="../img/project-git.png">
+                </div>
+            </section>
+            <section id="contact">
+                <h2>CONTACT</h2>
+                <p>if you want to talk to me, or need to find me</p> 
+                <a id="icontact" href="https://github.com/alpdias" target="_blank"></a><i class="fas fa-address-card"></i></a>
+            </section>
+        </main>
+        <footer id="foot">
+            COPYRIGHT &copy; 2020 | <a href="https://github.com/alpdias" target="_blank">PAULO</a>
+        </footer>
     </body>
 </html>
