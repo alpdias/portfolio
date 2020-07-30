@@ -6,16 +6,29 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Paulo | Developer</title>
         <!--
         <link rel="stylesheet" href="view.css"/>
+        <img src="../img/soon-paulo-white-edit.png"/>
         -->
         <script src="https://kit.fontawesome.com/cc2118f4fe.js" crossorigin="anonymous"></script>
+        <style>
+        html, body {
+            background-color: rgb(28, 35, 49);
+            color: #ffffff;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0px;
+            scroll-behavior: smooth;
+        }
+        </style>
     </head>
     <body>
         <header>
+            <a href="#presentation"><img src="../img/soon-paulo-white-128.png" alt="paulo developer soon"></a>
             <nav id="menu">
-                <li><a href="#presentation"><img src="../img/soon-paulo-white-edit.png"/></a></li>
+                <button>Open/Close</button>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#portfolio">PORTFOLIO</a></li>
                 <li><a href="#contact">CONTACT</a></li>
@@ -23,31 +36,32 @@
         </header>
         <main id="app">
             <section id="present">
-                <p>Hi! &#128513;</p>
-                <p>I'm Paulo</p>
-                <p>Developer. Learning technologies.</p>
+                <p>Hi! &#128513;</br>
+                    I'm Paulo</br>
+                    Developer. Learning technologies.</br>
+                </p>
                 <button id="presentB"><a href="#portfolio">PORTFOLIO</a></button>
             </section>
-            <section id="about">
+            <header>
                 <h2>ABOUT ME</h2>
+            </header>
+            <article id="about">
                 <p>If you wanna know who I am...</p>
                 <p>I'm Paulo, and I'm learning to program and getting to know new technologies.</p>
-                <p>I am studying and learning programming to become a developer, so far all I have learned was self-taught, watching online courses, video classes and 
-                    reading documentation. And as we know that the best way to learn is by practicing, I created this portfolio and a repository on GitHub to practice my 
-                    knowledge and share everything I am learning with programming and also with other technologies that I learn on the way and that I can share. Soon, I 
-                    will add new projects here or in my repository.</p>
+                <p>I am studying and learning programming to become a developer, so far all I have learned was self-taught, watching online courses, video classes and reading documentation. And as we know that the best way to learn is by practicing, I created this portfolio and a repository on GitHub to practice my knowledge and share everything I am learning with programming and also with other technologies that I learn on the way and that I can share. Soon, I will add new projects here or in my repository.</p>
                 <p>My current knowledge in languages / technologies is:</p>    
                 <h1>PYTHON - MYSQL - DATABASE - HTML - CSS - JAVASCRIPT - GITHUB</h1>
                 <button id="aboutB"><a href="https://github.com/alpdias" target="_blank">GITHUB <i class="fab fa-github"></i></a></button>
-            </section> 
-            <section id="portfolio">
+            </article>
+            <header>
                 <h2>PORTFOLIO</h2>
+            </header>
+            <section id="portfolio">
                 <div id="one">
                     <table>
                         <tbody id="onet">
                             <tr>
-                                <!-- rowspan="2" -->
-                                <td><img src="../img/portfolio.png"></td>
+                                <td><img src="../img/portfolio-512.png" alt="my first portfolio"></td>
                                 <td>
                                     <h3>PAULO PORTFOLIO</h3>
                                     <p>This is my first portfolio, I did it with the purpose of learning and to show the projects I'm working on. I created with the idea 
@@ -73,20 +87,23 @@
                                     <button id="twoB"><a href="https://github.com/alpdias/controle-estoque-js" target="_blank">SOURCE <i class="fab fa-github"></i></a></button>
                                     <button id="twoB"><a href="https://controle-estoque.netlify.com/" target="_blank">VISIT <i class="fas fa-link"></i></a></button>
                                 </td>
-                                <!-- rowspan="2" -->
-                                <td><img src="../img/controle-estoque.png"></td>
+                                <td><img src="../img/controle-estoque-512.png" alt="inventory control web in JavaScript"></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <div id="more">
-                    <h2>FOR MORE</h2>
-                    <p>To see more of my projects, especially Python <i class="fab fa-python"></i> visit my <strong>GitHub</strong> page</p>
-                    <img src="../img/project-git.png">
-                </div>
             </section>
-            <section id="contact">
+            <header>
+                <h2>FOR MORE</h2>
+            </header>
+            <section id="more">
+                <p>To see more of my projects, especially Python <i class="fab fa-python"></i> visit my <strong>GitHub</strong> page</p>
+                <img src="../img/project-git-800.png" alt="more projects in python">
+            </section>
+            <header>
                 <h2>CONTACT</h2>
+            </header>
+            <section id="contact">
                 <p>if you want to talk to me, or need to find me</p> 
                 <a id="icontact" href="https://github.com/alpdias" target="_blank"></a><i class="fas fa-address-card"></i></a>
             </section>
