@@ -1,4 +1,10 @@
 @charset "UTF-8";
+
+/*
+Criado em 07/2020
+@Autor: Paulo https://github.com/alpdias
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap');
 
@@ -15,8 +21,70 @@
     font-family: 'Staatliches', sans-serif;
     src: url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap');
 }
+
 body {
     background-color: rgb(28, 35, 49);
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
+}
+
+.menu {
+    background-color: rgba(28, 35, 49, 0.89);
+    padding: 15px;
+}
+
+.soon {
+    background-image: url(../../img/soon-paulo-white-128.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 128px;
+    height: 32px;
+    text-indent: -9999px;
+    margin: 0px;
+}
+
+.main-menu__btn {
+    display: block;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    background-image: url(../../img/main-menu-btn-bg-40.png);
+    background-repeat: no-repeat;
+    background-position: 6px 6px;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.main-menu__btn:hover {
+    background-position: -18px 6px;
+
+}
+
+.main-menu__list {
+    padding: 0px;
+}
+
+.main-menu__list li {
+    list-style: none;
+}
+
+.main-menu__item {
+    text-decoration: none;
+    font-family: 'Staatliches', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.main-menu__item:hover {
+    color: #26408B;
+    transition: 0.3s;
 }
