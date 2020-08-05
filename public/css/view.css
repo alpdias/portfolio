@@ -12,6 +12,11 @@ Criado em 07/2020
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 @font-face {
     font-family: 'Montserrat', sans-serif;
     src: url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap');
@@ -63,7 +68,6 @@ body {
 
 .main-menu__btn:hover {
     background-position: -18px 6px;
-
 }
 
 .main-menu__list {
@@ -87,4 +91,66 @@ body {
 .main-menu__item:hover {
     color: #26408B;
     transition: 0.3s;
+}
+
+.foot {
+    background-color: rgb(28, 35, 49);
+    color: #ffffff21;
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px;
+}
+
+.foot a {
+    color: #ffffff21;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+
+.app_title {    
+    font-family: 'Staatliches', sans-serif;
+    color: #26408B;
+    font-size: 52px;
+    font-weight: bolder;
+    background: url(../../img/background.png) center;
+    background-repeat: no-repeat;
+}
+
+.content_page {
+    padding: 15px;
+}
+
+.content_page p {
+    color: #ffffff;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tec_title {
+    color: #26408B;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.icontact {
+    font-size: 120px;
+    color: #ffffff;
+}
+
+.buttons_page {
+    background-color: #26408B;
+    color: #ffffff;
+    font-size: 14pt;
+    font-family: 'Staatliches', sans-serif;
+    font-weight: bolder;
+    border: none;
+    box-shadow: 2px 2px 4px #000000;
+    padding: 18px;
+    border-radius: 50px;
 }
