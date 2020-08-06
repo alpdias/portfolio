@@ -8,6 +8,8 @@ Criado em 07/2020
 @import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap');
 
+
+/* RESETS */
 * {
     box-sizing: border-box;
 }
@@ -17,6 +19,7 @@ img {
     height: auto;
 }
 
+/* FONTS */
 @font-face {
     font-family: 'Montserrat', sans-serif;
     src: url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap');
@@ -27,12 +30,18 @@ img {
     src: url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap');
 }
 
+/* GENERAL */
 body {
     background-color: rgb(28, 35, 49);
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
 }
 
+.text-center {
+    text-align: center;
+}
+
+/* TOP MENU */
 .menu {
     background-color: rgba(28, 35, 49, 0.89);
     padding: 15px;
@@ -68,6 +77,7 @@ body {
 
 .main-menu__btn:hover {
     background-position: -18px 6px;
+    background-color: #ffffff;
 }
 
 .main-menu__list {
@@ -93,6 +103,7 @@ body {
     transition: 0.3s;
 }
 
+/* FOOTER */
 .foot {
     background-color: rgb(28, 35, 49);
     color: #ffffff21;
@@ -107,7 +118,8 @@ body {
     text-decoration-style: none;
 }
 
-.app_title {    
+/* MAIN */
+.app-title {    
     font-family: 'Staatliches', sans-serif;
     color: #26408B;
     font-size: 52px;
@@ -116,26 +128,37 @@ body {
     background-repeat: no-repeat;
 }
 
-.content_page {
-    padding: 15px;
-}
-
-.content_page p {
-    color: #ffffff;
-    line-height: 22px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.tec_title {
+.tec-title {
     color: #26408B;
     font-family: 'Staatliches', sans-serif;
     font-size: 24px;
     font-weight: bolder;
 }
 
-.text_center {
-    text-align: center;
+.title-port {
+    color: #ffffff;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.content-page {
+    padding: 15px;
+}
+
+.content-page p {
+    color: #ffffff;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.present-content {
+    font-size: 38px;
+    font-weight: bolder;
+    padding-left: 15px;
 }
 
 .icontact {
@@ -143,7 +166,7 @@ body {
     color: #ffffff;
 }
 
-.buttons_page {
+.buttons-page {
     background-color: #26408B;
     color: #ffffff;
     font-size: 14pt;
