@@ -86,6 +86,7 @@ body {
 
 .main-menu__list li {
     list-style: none;
+    cursor: pointer;
 }
 
 .main-menu__item {
