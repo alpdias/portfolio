@@ -144,6 +144,12 @@ body {
     padding-top: 40px;
 }
 
+.title-port::before {
+    content: '>';
+    color: #ffffff21;
+    padding-right: 10px;
+}
+
 .content-page {
     padding: 15px;
 }
@@ -157,8 +163,14 @@ body {
 
 .present-content {
     font-size: 38px;
+    line-height: 44px;
     font-weight: bolder;
     padding-left: 15px;
+}
+
+.present-content p {
+    margin-top: 0px;
+    margin-bottom: 16px;
 }
 
 .icontact {
@@ -166,6 +178,12 @@ body {
     color: #ffffff;
 }
 
+.icontact:hover {
+    color: #26408B;
+    transition: 0.3s;
+}
+
+/* BUTTONS */
 .buttons-page {
     background-color: #26408B;
     color: #ffffff;
@@ -176,4 +194,27 @@ body {
     box-shadow: 2px 2px 4px #000000;
     padding: 18px;
     border-radius: 50px;
+}
+
+.buttons-page:first-child {
+    margin-right: 6px;
+}
+
+.buttons-page:hover {
+    background-color: #ffffff;
+    color: #26408B;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* IMAGES */
+.img-config {
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px 3px #000000;
+}
+
+.img-config:hover {
+    box-shadow: 3px 3px 3px #ffffff;
+    transition: 0.3s;
 }
