@@ -175,12 +175,13 @@ body {
 
 .present-content h6 {
     margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .present-content h3 {
     margin-top: 20px;
     margin-bottom: 0px;
+    line-height: 50px;
 }
 
 .icontact {
