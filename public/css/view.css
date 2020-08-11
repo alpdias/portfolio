@@ -229,3 +229,9 @@ body {
     box-shadow: 3px 3px 3px #ffffff;
     transition: 0.3s;
 }
+
+/* LAYOUT */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
