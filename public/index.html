@@ -13,15 +13,15 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/view.css">
     </head>
-    <body>
-        <header class="menu">
-            <a><h1 class="soon">soon</h1></a>
+    <body id="app">
+        <header class="menu md">
+            <a href="#app"><h1 class="soon">soon</h1></a>
             <nav class="main-menu">
                 <button class="main-menu__btn main-menu__btn--close ">menu</button>
                 <ul class="main-menu__list">
-                    <li><a class="main-menu__item">ABOUT</a></li>
-                    <li><a class="main-menu__item">PORTFOLIO</a></li>
-                    <li><a class="main-menu__item">CONTACT</a></li>
+                    <li><a class="main-menu__item" href="#about">ABOUT</a></li>
+                    <li><a class="main-menu__item" href="#portfolio">PORTFOLIO</a></li>
+                    <li><a class="main-menu__item" href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
         </header>
@@ -29,9 +29,9 @@
             <section class="present-content container">
                 <h3>Hi! &#x1F642;</br>I'm Paulo</br></h3>
                 <h6>Developer. Learning technologies.</h6> 
-                <a><button class="buttons-page">PORTFOLIO</button></a>
+                <a href="#portfolio"><button class="buttons-page">PORTFOLIO</button></a>
             </section>
-            <article class="content-page text-center container">
+            <article class="content-page text-center container md" id="about">
                 <header>
                     <h2 class="app-title">ABOUT ME</h2>
                 </header>
@@ -42,7 +42,7 @@
                 <h1 class="tec-title">PYTHON - MYSQL - DATABASE - HTML - CSS - JAVASCRIPT - GITHUB</h1>
                 <a href="https://github.com/alpdias" target="_blank"><button class="buttons-page">GITHUB <i class="fab fa-github"></i></button></a>
             </article>
-            <section class="content-page text-center">
+            <section class="content-page text-center md" id="portfolio">
                 <header>
                     <h2 class="app-title text-center">PORTFOLIO</h2>
                 </header>
@@ -52,7 +52,7 @@
                     <p>This is my first portfolio, I did it with the purpose of learning and to show the projects I'm working on. I created with the idea of ​​being a static, simple and practical website, using HTML and CSS to learn web development.</p>
                     <h1 class="tec-title text-center">HTML5 - CSS3</h1> 
                     <a href="https://github.com/alpdias/portfolio-html-css" target="_blank"><button class="buttons-page">SOURCE <i class="fab fa-github"></i></button></a>
-                    <a target="_blank"><button class="buttons-page">VISIT <i class="fas fa-link"></i></button></a>
+                    <a href="#app" target="_blank"><button class="buttons-page">VISIT <i class="fas fa-link"></i></button></a>
                 </div>
                 <div>
                     <h3 class="title-port">INVENTORY CONTROL</h3>
@@ -63,14 +63,14 @@
                     <a href="https://controle-estoque.netlify.com/" target="_blank"><button class="buttons-page">VISIT <i class="fas fa-link"></i></button></a>
                 </div>
             </section>
-            <section class="content-page text-center">
+            <section class="content-page text-center md">
                 <header>
                     <h2 class="app-title text-center">FOR MORE</h2>
                 </header>
                 <p>To see more of my projects, especially Python <i class="fab fa-python"></i> visit my <strong>GitHub</strong> page</p>
                 <img src="../img/project-git-new-800.png" alt="more projects in python" class="img-config">
             </section>
-            <section class="content-page text-center">
+            <section class="content-page text-center md" id="contact">
             <header>
                 <h2 class="app-title text-center">CONTACT</h2>
             </header>

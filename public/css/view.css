@@ -130,7 +130,7 @@ body {
 }
 
 .app-title:first-child {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .tec-title {
@@ -146,7 +146,7 @@ body {
     font-size: 20pt;
     font-weight: bolder;
     text-align: left;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 .title-port::before {
@@ -179,7 +179,7 @@ body {
 }
 
 .present-content h3 {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 0px;
     line-height: 50px;
 }
@@ -234,4 +234,30 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+/* MEDIA QUERIES */
+@media(min-width: 580px) {
+
+    .md {
+        padding: 30px;
+    }
+
+    .main-menu__btn {
+        top: 30px;
+        right: 30px;
+    }
+
+    .present-content {
+        padding-left: 30px;
+    }
+
+}
+
+@media(min-width: 620px) {
+
+    body {
+        background-color: aqua;
+    }
+    
 }
