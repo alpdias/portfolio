@@ -230,6 +230,10 @@ body {
     transition: 0.3s;
 }
 
+.img2 {
+    display: none;
+}
+
 /* LAYOUT */
 .container {
     max-width: 1200px;
@@ -256,6 +260,26 @@ body {
 
 @media(min-width: 620px) {
 
+    .img1 {
+        display: none;
+    }
+    
+    .img2 {
+        display: block;
+    }
+    
+}
+
+@media(min-width: 768px) {
+
+    .img1 {
+        display: block;
+    }
+    
+    .img2 {
+        display: none;
+    }
+    
     body {
         background-color: aqua;
     }
