@@ -45,6 +45,10 @@ body {
 .menu {
     background-color: rgba(28, 35, 49, 0.89);
     padding: 15px;
+    /*
+    position: fixed;
+    width: 100%;
+    */
 }
 
 .soon {
@@ -157,6 +161,7 @@ body {
 
 .content-page {
     padding: 15px;
+    overflow: auto;
 }
 
 .content-page p {
@@ -279,9 +284,15 @@ body {
     .img2 {
         display: none;
     }
-    
-    body {
-        background-color: aqua;
+
+    .img-left {
+        float: left;
+        width: 50%;
     }
-    
+
+    .img-right {
+        float: right;
+        width: 50%;
+    }
+
 }
