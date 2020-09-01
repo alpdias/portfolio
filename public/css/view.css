@@ -73,7 +73,6 @@ body {
     border-style: solid;
     border-radius: 5px;
     cursor: pointer;
-
     position: absolute;
     top: 15px;
     right: 15px;
@@ -313,8 +312,13 @@ body {
         display: none;
     }
 
+    .main-menu__btn {
+        display: none;
+    }
+
     .main-menu__list li {
         display: inline-block;
+        margin: 0 10px;
     }
 
     table {
