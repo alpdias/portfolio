@@ -292,18 +292,6 @@ body {
         display: none;
     }
 
-    #portfolio-max {
-        display: block;
-    }
-
-    #link-max {
-        display: block;
-    }
-    
-    #botao-max {
-        display: block;
-    }
-
     #link-min {
         display: none;
     }
@@ -316,9 +304,35 @@ body {
         display: none;
     }
 
+    #portfolio-max {
+        display: block;
+    }
+
+    #link-max {
+        display: block;
+    }
+    
+    #botao-max {
+        display: block;
+    }
+
     .main-menu__list li {
         display: inline-block;
-        margin: 0 10px;
+        margin: 10px;
+    }
+
+    .main-menu__list li:first-child {
+        margin-right: -12px;
+    }
+
+    .present-content{
+        margin-left: 45px;
+    }
+
+    .content-page {
+        margin-right: 45px;
+        margin-left: 45px;
+        max-width: 100%;
     }
 
     table {
