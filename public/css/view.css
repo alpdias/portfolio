@@ -5,9 +5,19 @@ Criado em 07/2020
 @Autor: Paulo https://github.com/alpdias
 */
 
+/* FONTS */
 @import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap');
 
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap');
+}
+
+@font-face {
+    font-family: 'Staatliches', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap');
+}
 
 /* RESETS */
 * {
@@ -17,17 +27,6 @@ Criado em 07/2020
 img {
     max-width: 100%;
     height: auto;
-}
-
-/* FONTS */
-@font-face {
-    font-family: 'Montserrat', sans-serif;
-    src: url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap');
-}
-
-@font-face {
-    font-family: 'Staatliches', sans-serif;
-    src: url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap');
 }
 
 /* GENERAL */
