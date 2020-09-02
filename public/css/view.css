@@ -316,6 +316,16 @@ body {
         display: block;
     }
 
+    .soon {
+        float: left;
+        margin-left: 45px;
+    }
+
+    .main-menu__list {
+        float: right;
+        margin: 0px 45px 0px 0px;
+    }
+
     .main-menu__list li {
         display: inline-block;
         margin: 10px;
@@ -325,7 +335,17 @@ body {
         margin-right: -12px;
     }
 
+    .menu {
+        box-shadow: 1px 1px 2px #000000;
+        padding-bottom: 8px;
+        padding-top: 20px;
+        position: fixed;
+        width: 100%;
+        margin-top: -100px;    
+    }
+
     .present-content{
+        margin-top: 100px;
         margin-left: 45px;
     }
 
