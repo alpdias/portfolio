@@ -105,22 +105,6 @@ body {
     transition: 0.3s;
 }
 
-/**/
-
-.main-menu__btn--close {
-    background-position: 6px 6px;
-}
-
-.main-menu_list--close {
-    margin: 0;
-}
-
-.main-menu__item--close {
-    margin: 0;
-    height: 0;
-    overflow: hidden;
-}
-
 /* FOOTER */
 .foot {
     background-color: rgb(28, 35, 49);
@@ -300,6 +284,24 @@ body {
         display: block;
     }
     
+}
+
+@media(max-width: 1024px) {
+
+    .main-menu__btn--close {
+        background-position: 6px 6px;
+    }
+    
+    .main-menu_list--close {
+        margin: 0;
+    }
+    
+    .main-menu__item--close {
+        margin: 0;
+        height: 0;
+        overflow: hidden;
+    }
+
 }
 
 @media(min-width: 1024px) {
