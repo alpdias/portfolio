@@ -67,7 +67,7 @@ body {
     text-indent: -9999px;
     background-image: url(../../img/main-menu-btn-bg-40.png);
     background-repeat: no-repeat;
-    background-position: 6px 6px;
+    background-position: -18px 6px;
     border-color: #000000;
     border-style: solid;
     border-radius: 5px;
@@ -78,7 +78,6 @@ body {
 }
 
 .main-menu__btn:hover {
-    background-position: -18px 6px;
     background-color: #ffffff;
 }
 
@@ -104,6 +103,22 @@ body {
 .main-menu__item:hover {
     color: #26408B;
     transition: 0.3s;
+}
+
+/**/
+
+.main-menu__btn--close {
+    background-position: 6px 6px;
+}
+
+.main-menu_list--close {
+    margin: 0;
+}
+
+.main-menu__item--close {
+    margin: 0;
+    height: 0;
+    overflow: hidden;
 }
 
 /* FOOTER */
@@ -174,6 +189,8 @@ body {
     line-height: 44px;
     font-weight: bolder;
     padding-left: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .present-content h6 {
@@ -336,16 +353,17 @@ body {
 
     .menu {
         box-shadow: 1px 1px 2px #000000;
-        padding-bottom: 8px;
+        padding-bottom: 4px;
         padding-top: 20px;
         position: fixed;
         width: 100%;
-        margin-top: -100px;    
+        margin-top: -1px;    
     }
 
     .present-content{
-        margin-top: 100px;
+        margin-top: 0px;
         margin-left: 45px;
+        padding-top: 180px;
     }
 
     .content-page {
@@ -370,4 +388,3 @@ body {
     }
 
 }
-
