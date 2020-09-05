@@ -328,7 +328,7 @@ body {
 
     #portfolio-max {
         display: block;
-        padding-top: 50px;
+        padding-top: 30px;
     }
 
     #link-max {
@@ -370,7 +370,7 @@ body {
     .present-content{
         margin-top: 0px;
         margin-left: 45px;
-        padding-top: 15%;
+        padding-top: 16%;
         height: 100vh;
     }
 
@@ -383,6 +383,17 @@ body {
 
     #about {
         height: 100vh;
+        margin-right: 150px;
+        margin-left: 150px;
+        overflow: visible;
+    }
+
+    #ajust-first-p {
+        margin-top: 8%;
+    }
+
+    #ajust-p {
+        margin-top: 5%;
     }
 
     .content-page {
@@ -408,6 +419,11 @@ body {
 
     #contact {
         height: 94vh;
+        overflow: visible;
+    }
+
+    #contact p {
+        margin-bottom: 12%;
     }
 
     #foot-style {
