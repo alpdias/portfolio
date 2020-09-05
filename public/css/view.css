@@ -256,6 +256,10 @@ body {
     display: none;
 }
 
+#markdown {
+    display: none;
+}
+
 /* MEDIA QUERIES */
 @media(min-width: 580px) {
 
@@ -324,6 +328,7 @@ body {
 
     #portfolio-max {
         display: block;
+        padding-top: 50px;
     }
 
     #link-max {
@@ -365,7 +370,23 @@ body {
     .present-content{
         margin-top: 0px;
         margin-left: 45px;
-        padding-top: 180px;
+        padding-top: 260px;
+        height: 100vh;
+    }
+
+    #markdown {
+        display: block;
+        position: absolute;
+        left: 50%;
+        bottom: 10px;
+    }
+
+    #about {
+        height: 100vh;
+    }
+
+    #about h2 {
+        margin-top: 160px;
     }
 
     .content-page {
@@ -387,6 +408,19 @@ body {
 
     .title-port {
         padding-top: 0px;
+    }
+
+    #contact {
+        height: 94vh;
+        padding-top: 50px;
+    }
+    
+    #contact p {
+        margin-bottom: 160px;
+    }
+
+    #foot-style {
+        height: 6vh;
     }
 
 }
