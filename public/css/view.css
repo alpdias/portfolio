@@ -370,7 +370,7 @@ body {
     .present-content{
         margin-top: 0px;
         margin-left: 45px;
-        padding-top: 260px;
+        padding-top: 15%;
         height: 100vh;
     }
 
@@ -383,10 +383,6 @@ body {
 
     #about {
         height: 100vh;
-    }
-
-    #about h2 {
-        margin-top: 160px;
     }
 
     .content-page {
@@ -412,11 +408,6 @@ body {
 
     #contact {
         height: 94vh;
-        padding-top: 50px;
-    }
-    
-    #contact p {
-        margin-bottom: 160px;
     }
 
     #foot-style {
