@@ -22,6 +22,7 @@ Criado em 07/2020
 /* RESETS */
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 img {
