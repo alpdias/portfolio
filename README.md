@@ -9,9 +9,9 @@ Microsoft VSCode 1.42.1 </br>
 Coding: -&lowast;- coding: utf-8 -&lowast;- </br>
 en-US </br>
 
-![portfolio](https://github.com/alpdias/portfolio-html-css/blob/master/img/portfolio.png)
+![portfolio-new](https://github.com/alpdias/portfolio-html-css/blob/master/img/portfolio-new.png)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ceddd29c-60aa-4513-9c72-23fb4e7cda20/deploy-status)](https://app.netlify.com/sites/paulodeveloper/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0c8a2bee-c610-4942-9fb8-fef890e71cc8/deploy-status)](https://app.netlify.com/sites/paulodeveloper/deploys)
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -26,8 +26,8 @@ Microsoft VSCode 1.42.1 </br>
 Codificação: -&lowast;- coding: utf-8 -&lowast;- </br>
 en-US </br>
 
-![portfolio](https://github.com/alpdias/portfolio-html-css/blob/master/img/portfolio.png)
+![portfolio-new](https://github.com/alpdias/portfolio-html-css/blob/master/img/portfolio-new.png)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ceddd29c-60aa-4513-9c72-23fb4e7cda20/deploy-status)](https://app.netlify.com/sites/paulodeveloper/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0c8a2bee-c610-4942-9fb8-fef890e71cc8/deploy-status)](https://app.netlify.com/sites/paulodeveloper/deploys)
 
 --------------------------------------------------------------------------------------------------------------
