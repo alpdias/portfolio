@@ -9,12 +9,12 @@ let item1 = document.getElementById('1one');
 let item2 = document.getElementById('2two');
 let item3 = document.getElementById('3three');
 
-botao.addEventListener('click', abreFecha); 
-
-function abreFecha(evento) {
-    butttonElement.classList.toggle('main-menu__btn--close');
+function openClose(evento) {
+    buttonElement.classList.toggle('main-menu__btn--close');
     menuElement.classList.toggle('main-menu__list--close');
     item1.classList.toggle('main-menu__item--close');
     item2.classList.toggle('main-menu__item--close');
     item3.classList.toggle('main-menu__item--close');
 };
+
+buttonElement.addEventListener('click', openClose); 
