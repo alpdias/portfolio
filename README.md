@@ -11,7 +11,7 @@ en-US </br>
 
 ![portfolio-new](https://github.com/alpdias/portfolio-html-css/blob/master/img/portfolio-new.png)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0c8a2bee-c610-4942-9fb8-fef890e71cc8/deploy-status)](https://app.netlify.com/sites/paulodeveloper/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5b672469-be93-4d68-a1cc-535aac43d3d0/deploy-status)](https://app.netlify.com/sites/paulodeveloper/deploys)
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -28,6 +28,6 @@ en-US </br>
 
 ![portfolio-new](https://github.com/alpdias/portfolio-html-css/blob/master/img/portfolio-new.png)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0c8a2bee-c610-4942-9fb8-fef890e71cc8/deploy-status)](https://app.netlify.com/sites/paulodeveloper/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5b672469-be93-4d68-a1cc-535aac43d3d0/deploy-status)](https://app.netlify.com/sites/paulodeveloper/deploys)
 
 --------------------------------------------------------------------------------------------------------------
