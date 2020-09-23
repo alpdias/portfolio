@@ -42,13 +42,13 @@ body {
 }
 
 /* TOP MENU */
+#comport-nav {
+  
+}
+
 .menu {
     background-color: rgba(28, 35, 49, 0.89);
     padding: 15px;
-    /*
-    position: fixed;
-    width: 100%;
-    */
 }
 
 .soon {
@@ -157,9 +157,17 @@ body {
     padding-right: 10px;
 }
 
+#comport-about {
+    display: table;
+}
+
+#art-table {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .content-page {
     padding: 15px;
-    overflow: auto;
 }
 
 .content-page p {
@@ -169,13 +177,17 @@ body {
     margin-bottom: 20px;
 }
 
+#comport-present {
+    display: table;
+    padding-left: 15px;
+}
+
 .present-content {
+    display: table-cell;
+    vertical-align: middle;
     font-size: 38px;
     line-height: 44px;
     font-weight: bolder;
-    padding-left: 15px;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 .present-content h6 {
@@ -374,9 +386,11 @@ body {
 
     .present-content{
         margin-top: 0px;
-        margin-left: 45px;
-        padding-top: 16%;
         height: 100vh;
+    }
+
+    #comport-present {
+        margin-left: 38px;
     }
 
     #markdown {
@@ -387,18 +401,25 @@ body {
     }
 
     #about {
+        display: table;
         height: 100vh;
         margin-right: 150px;
         margin-left: 150px;
-        overflow: visible;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
-    #ajust-first-p {
-        margin-top: 6%;
+    #comport-about {
+        display: table-cell;
+        vertical-align: middle;
     }
 
     #ajust-p {
         margin-top: 5%;
+    }
+
+    #ajust-first-p {
+        margin-top: 6%;
     }
 
     .content-page {
@@ -424,10 +445,22 @@ body {
 
     #contact {
         height: 94vh;
+        display: table;
+        margin: 0 auto;
+    }
+
+    #comport-contact {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #contact h2 {
+        margin-bottom: 10px;
     }
 
     #contact p {
-        margin-bottom: 9%;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     #foot-style {
