@@ -117,7 +117,7 @@ body {
     text-decoration-style: none;
 }
 
-/* MAIN */
+/* TITLES */
 .app-title {    
     font-family: 'Staatliches', sans-serif;
     color: #26408B;
@@ -153,15 +153,12 @@ body {
     padding-right: 10px;
 }
 
+/* ABOUT */
 #comport-about {
     display: table;
 }
 
-#art-table {
-    display: table-cell;
-    vertical-align: middle;
-}
-
+/* CONTENT PAGE */
 .content-page {
     padding: 15px;
 }
@@ -173,6 +170,7 @@ body {
     margin-bottom: 20px;
 }
 
+/* PRESENT PAGE */
 #comport-present {
     display: table;
     padding-left: 15px;
@@ -197,6 +195,7 @@ body {
     line-height: 50px;
 }
 
+/* CONTACT PAGE */
 .icontact {
     font-size: 120px;
     color: #ffffff;
@@ -247,7 +246,7 @@ body {
     display: none;
 }
 
-/* LAYOUT */
+/* LAYOUT ALL */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -319,23 +318,8 @@ body {
 
 @media(min-width: 1024px) {
 
+    /* PORTFOLIO */
     #portfolio {
-        display: none;
-    }
-
-    #link-min {
-        display: none;
-    }
-
-    #b2two {
-        display: none;
-    }
-    
-    #botao-min {
-        display: none;
-    }
-
-    .main-menu__btn {
         display: none;
     }
 
@@ -344,17 +328,45 @@ body {
         padding-top: 30px;
     }
 
+    /* LINKS */
+    #link-min {
+        display: none;
+    }
+
     #link-max {
         display: block;
+    }
+
+    /* BUTTONS */
+    #b2two {
+        display: none;
+    }
+    
+    #botao-min {
+        display: none;
     }
     
     #botao-max {
         display: block;
     }
 
+    /* MENU */
     .soon {
         float: left;
         margin-left: 45px;
+    }
+
+    .menu {
+        box-shadow: 1px 1px 2px #000000;
+        padding-bottom: 4px;
+        padding-top: 20px;
+        position: fixed;
+        width: 100%;
+        margin-top: -1px;    
+    }
+
+    .main-menu__btn {
+        display: none;
     }
 
     .main-menu__list {
@@ -371,19 +383,7 @@ body {
         margin-right: -12px;
     }
 
-    .menu {
-        box-shadow: 1px 1px 2px #000000;
-        padding-bottom: 4px;
-        padding-top: 20px;
-        position: fixed;
-        width: 100%;
-        margin-top: -1px;    
-    }
-
-    .app-title {
-        margin-bottom: 0px;
-    }
-
+    /* PRESENTE PAGE */
     .present-content{
         margin-top: 0px;
         height: 100vh;
@@ -400,6 +400,7 @@ body {
         bottom: 10px;
     }
 
+    /* ABOUT PAGE */
     #about {
         display: table;
         height: 100vh;
@@ -432,6 +433,7 @@ body {
         max-width: 100%;
     }
 
+    /* TABLES */
     table {
         margin-left: 45px;
         margin-right: 45px;
@@ -443,10 +445,16 @@ body {
         vertical-align: center;
     }
 
+    /* TITLES */
     .title-port {
         padding-top: 0px;
     }
 
+    .app-title {
+        margin-bottom: 0px;
+    }
+
+    /* CONTACT PAGE */
     #contact {
         height: 94vh;
         display: table;
@@ -467,6 +475,7 @@ body {
         margin-bottom: 0px;
     }
 
+    /* FOOTER */
     #foot-style {
         height: 6vh;
     }
