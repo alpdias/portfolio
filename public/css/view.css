@@ -42,10 +42,6 @@ body {
 }
 
 /* TOP MENU */
-#comport-nav {
-  
-}
-
 .menu {
     background-color: rgba(28, 35, 49, 0.89);
     padding: 15px;
@@ -384,6 +380,10 @@ body {
         margin-top: -1px;    
     }
 
+    .app-title {
+        margin-bottom: 0px;
+    }
+
     .present-content{
         margin-top: 0px;
         height: 100vh;
@@ -412,6 +412,10 @@ body {
     #comport-about {
         display: table-cell;
         vertical-align: middle;
+    }
+
+    #p-sub {
+        margin-top: 10px;
     }
 
     #ajust-p {
